@@ -1,0 +1,1582 @@
+2012/08/14 20:35:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:35:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/social...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/social.png
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:35:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:35:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:35:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:37:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/promocional_images/img_3822"' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('images/promocio...')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/images/promocional_images/img_3822
+---
+2012/08/14 20:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/promocional_images/img_3822.png"' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('images/promocio...')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/images/promocional_images/img_3822.png
+---
+2012/08/14 20:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/social...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/social.png
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/social...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/social.png
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/social...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/social.png
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:38:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 20:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 20:39:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 20:42:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/social...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/social.png
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:42:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:42:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:42:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/social...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/social.png
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/social...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/social.png
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:43:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:43:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/social...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/social.png
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 20:48:47 [error] [php] date() expects at least 1 parameter, 0 given (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php:86)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (86)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/14 20:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/bg....')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/bg.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/index
+---
+2012/08/14 20:49:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_28ba.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/index
+---
+2012/08/14 20:58:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 20:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 20:58:48 [error] [php] file_get_contents(path_to_fileimg_3822jpg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php:183)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/Fancyboximagen?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (183)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/14 20:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 20:59:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 21:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 21:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 21:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/social...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/social.png
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 21:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img2_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img2_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 21:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/img1_i...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/img1_imagenes.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 21:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+---
+2012/08/14 21:07:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:07:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:07:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('Fancyboximagen')
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Fancyboxim...')
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/Fancyboximagen?id=1
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:08:22 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('Fancyboximagen')
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Fancyboxim...')
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/Fancyboximagen?id=1
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:08:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('Fancyboximagen')
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Fancyboxim...')
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/Fancyboximagen?id=1
+---
+2012/08/14 21:10:43 [error] [php] filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protectedimages/promocional_images/. (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php:187)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/Fancyboximagen?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (187)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/14 21:10:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:12:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:12:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:12:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:14:09 [error] [php] Invalid argument supplied for foreach() (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\plan.php:313)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(94): YiiDebugViewRenderer->renderFile()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(102): SiteController->render()
+#4 unknown(0): SiteController->actionPlan()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan/20
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\plan.php (313)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\yii-debug-toolbar\components\YiiDebugViewRenderer.php (47)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (102)
+2012/08/14 21:31:30 [error] [php] readfile(C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protectedimages/promocional_images/.) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php:190)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/Fancyboximagen?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (190)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/14 21:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:51:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:53:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:55:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:55:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_28ba.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/
+---
+2012/08/14 21:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/bg....')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/bg.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/
+---
+2012/08/14 21:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/
+---
+2012/08/14 21:58:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_28ba.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/
+---
+2012/08/14 21:58:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/bg....')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/bg.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/
+---
+2012/08/14 21:58:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/paq...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/paquetes_images/
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/
+---
+2012/08/14 21:58:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:59:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:59:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 21:59:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "undefined" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('undefined')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('undefined')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/undefined')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/undefined
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 22:00:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 22:00:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 22:00:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 22:00:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 22:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 22:00:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 22:01:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 22:01:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/pro...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/images/promocional_images/img_3822.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+---
+2012/08/14 22:28:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/promocional_images/img_28ba.jpg"' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('images/promocio...')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/images/promocional_images/img_28ba.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/index.php?r=site/plan&id=
+---
+2012/08/14 23:29:07 [error] [exception.CException] exception 'CException' with message 'Propiedad "CWebApplication"."image" no se encuentra definida.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CModule.php(106): CComponent->__get('image')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(36): CModule->__get('image')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require('C:\wamp\DropRaf...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\DropRaf...', Array, true)
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\DropRaf...', Array, true)
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): CController->renderPartial('promocion', Array, true)
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(150): CController->render('promocion', Array)
+#7 [internal function]: SiteController->actionPromocion('1')
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('promocion')
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/promocion')
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/index.php?r=site/plan&id=
+---
+2012/08/14 23:29:17 [error] [exception.CException] exception 'CException' with message 'Propiedad "CWebApplication"."image" no se encuentra definida.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CModule.php(106): CComponent->__get('image')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(36): CModule->__get('image')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require('C:\wamp\DropRaf...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\DropRaf...', Array, true)
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\DropRaf...', Array, true)
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): CController->renderPartial('promocion', Array, true)
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(150): CController->render('promocion', Array)
+#7 [internal function]: SiteController->actionPromocion('1')
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('promocion')
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/promocion')
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/index.php?r=site/plan&id=
+---
+2012/08/14 23:37:18 [error] [php] include(CArray.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\drivers\GD.php(80): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\Image.php(368): Image_GD_Driver->process()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(41): Image->render()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(158): SiteController->render()
+#8 unknown(0): SiteController->actionPromocion()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\drivers\GD.php (80)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\Image.php (368)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (41)
+2012/08/14 23:37:24 [error] [php] include(CArray.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\drivers\GD.php(80): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\Image.php(368): Image_GD_Driver->process()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(41): Image->render()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(162): SiteController->render()
+#8 unknown(0): SiteController->actionPromocion()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\drivers\GD.php (80)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\Image.php (368)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (41)
+2012/08/14 23:38:38 [error] [php] include(CArray.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\drivers\GD.php(80): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\Image.php(368): Image_GD_Driver->process()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(41): Image->render()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(167): SiteController->render()
+#8 unknown(0): SiteController->actionPromocion()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\drivers\GD.php (80)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\image\Image.php (368)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (41)
+2012/08/14 23:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index.php" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('index.php')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('index.php')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index.php')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/index.php
+---
+2012/08/14 23:45:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index.php" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('index.php')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('index.php')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index.php/...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/index.php/image/
+---
+2012/08/14 23:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index.php" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('index.php')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('index.php')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index.php/...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/index.php/image/
+---
+2012/08/14 23:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/promocional_images/img_28ba.jpg"' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('images/promocio...')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/images/promocional_images/img_28ba.jpg
+HTTP_REFERER=http://192.168.1.28/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/
+---
+2012/08/14 23:48:34 [error] [php] print_r() expects parameter 2 to be boolean, object given (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php:41)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(184): SiteController->render()
+#4 unknown(0): SiteController->actionPromocion()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (41)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (184)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/14 23:56:01 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(43): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(185): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (43)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (185)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/14 23:56:14 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(43): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(185): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (43)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (185)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/15 00:00:42 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(43): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(185): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (43)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (185)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/15 00:00:44 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(43): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(185): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (43)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (185)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/15 00:00:54 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(43): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(185): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (43)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (185)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/15 00:00:55 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(43): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(185): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (43)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (185)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/15 00:02:22 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(45): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(185): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (45)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (185)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/15 00:05:44 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(46): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(185): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (46)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (185)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/15 00:05:46 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(46): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(185): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (46)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (185)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/15 00:13:16 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(45): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(157): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (45)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (157)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/15 00:16:15 [error] [php] include(ImageHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php(45): spl_autoload_call()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(157): SiteController->render()
+#6 unknown(0): SiteController->actionPromocion()
+#7 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/promocion?id=1
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\promocion.php (45)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php (157)
+in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php (13)
+2012/08/16 15:21:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/mapa.j...')
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/img/mapa.jpg
+HTTP_REFERER=http://localhost/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=1
+---
+2012/08/16 15:49:21 [error] [php] Invalid argument supplied for foreach() (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\helpers\CHtml.php:1960)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\plan.php(627): CActiveForm->dropDownList()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\yii-debug-toolbar\components\YiiDebugViewRenderer.php(47): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(94): YiiDebugViewRenderer->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(176): SiteController->render()
+#7 unknown(0): SiteController->actionPlan()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
+2012/08/16 15:59:49 [error] [php] Invalid argument supplied for foreach() (C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\helpers\CHtml.php:1960)
+Stack trace:
+#0 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\views\site\plan.php(627): CActiveForm->dropDownList()
+#1 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\extensions\yii-debug-toolbar\components\YiiDebugViewRenderer.php(47): SiteController->renderInternal()
+#3 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CBaseController.php(94): YiiDebugViewRenderer->renderFile()
+#4 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\protected\controllers\SiteController.php(176): SiteController->render()
+#7 unknown(0): SiteController->actionPlan()
+#8 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#9 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#10 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(309): CInlineAction->runWithParams()
+#11 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(287): SiteController->runAction()
+#12 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#13 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(283): SiteController->run()
+#14 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#15 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\DropRafael\Dropbox\ViajesFalabella\viajes_falabella_YII\trunk\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/DropRafael/Dropbox/ViajesFalabella/viajes_falabella_YII/trunk/web/site/plan?id=20
