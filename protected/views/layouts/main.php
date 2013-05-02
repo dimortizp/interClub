@@ -21,39 +21,36 @@
 <body>
 
 <div class="container" id="page">
-        <?php $this->widget('bootstrap.widgets.TbNavbar', array(
-    'type'=>'null', // null or 'inverse'
-    'brand'=>'Viajes Falabella',
-    'brandUrl'=>Yii::app()->request->baseUrl,
-    'collapse'=>true, // requires bootstrap-responsive.css
-    'items'=>array(
 
-       array(
-            'class'=>'bootstrap.widgets.TbMenu',
-            'htmlOptions'=>array('class'=>'pull-right'),
-            'items'=>array(),
+	<div id="header">
+		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+	</div><!-- header -->
 
-        ),
-    ),
-
-));
-        ?>
-
-	<div style="height: 35px;">
-
+	<div id="mainmenu">
+		<?php $this->widget('zii.widgets.CMenu',array(
+			'items'=>array(
+				array('label'=>'Home', 'url'=>array('/site/index')),
+				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
+				array('label'=>'Contact', 'url'=>array('/site/contact')),
+				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+			),
+		)); ?>
 	</div><!-- mainmenu -->
-	 
-        <div class="clear"></div>
+	<?php if(isset($this->breadcrumbs)):?>
+		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
+			'links'=>$this->breadcrumbs,
+		)); ?><!-- breadcrumbs -->
+	<?php endif?>
 
-	<div id="content" style="text-align:center; margin-left:30%; margin-right:30%;">
 	<?php echo $content; ?>
-</div>
 
-        <div class="clear"></div>
+	<div class="clear"></div>
+
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by MC Activa.<br/>
-		All Rights Reserved. Todos los derechos reservados.<br/>
-
+		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
+		All Rights Reserved.<br/>
+		<?php echo Yii::powered(); ?>
 	</div><!-- footer -->
 
 </div><!-- page -->
