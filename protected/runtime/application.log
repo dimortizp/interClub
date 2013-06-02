@@ -384,3 +384,303 @@ Stack trace:
 REQUEST_URI=/interClubProyect/index.php?r=categoria/create
 HTTP_REFERER=http://localhost/interClubProyect/index.php?r=categoria/create
 ---
+2013/05/03 03:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ListaEspera/index"' in C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('ListaEspera/ind...')
+#1 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interClubProyect/ListaEspera/index
+HTTP_REFERER=http://localhost/interClubProyect/Categoria/index
+---
+2013/05/03 03:45:05 [warning] [application] Error al definir unsafe el atributo "K_IDCATEGORIA" de "Categoria".
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (72)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/03 03:45:05 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("AJEDREZ"."CATEGORIA"."K_IDCATEGORIA")
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: INSERT INTO "CATEGORIA" ("N_CATEGORIA") VALUES (:yp0) RETURNING "K_IDCATEGORIA" INTO :RETURN_ID.
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (73)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/03 03:45:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("AJEDREZ"."CATEGORIA"."K_IDCATEGORIA")
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: INSERT INTO "CATEGORIA" ("N_CATEGORIA") VALUES (:yp0) RETURNING "K_IDCATEGORIA" INTO :RETURN_ID' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#14 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/05/03 03:51:18 [warning] [application] Error al definir unsafe el atributo "K_IDCATEGORIA" de "Categoria".
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (72)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/03 03:51:18 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("AJEDREZ"."CATEGORIA"."K_IDCATEGORIA")
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: INSERT INTO "CATEGORIA" ("N_CATEGORIA") VALUES (:yp0) RETURNING "K_IDCATEGORIA" INTO :RETURN_ID.
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (73)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/03 03:51:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("AJEDREZ"."CATEGORIA"."K_IDCATEGORIA")
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: INSERT INTO "CATEGORIA" ("N_CATEGORIA") VALUES (:yp0) RETURNING "K_IDCATEGORIA" INTO :RETURN_ID' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#14 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/05/03 03:51:29 [warning] [application] Error al definir unsafe el atributo "K_IDCATEGORIA" de "Categoria".
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (72)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/03 03:51:29 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("AJEDREZ"."CATEGORIA"."K_IDCATEGORIA")
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: INSERT INTO "CATEGORIA" ("N_CATEGORIA") VALUES (:yp0) RETURNING "K_IDCATEGORIA" INTO :RETURN_ID.
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (73)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/03 03:51:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("AJEDREZ"."CATEGORIA"."K_IDCATEGORIA")
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: INSERT INTO "CATEGORIA" ("N_CATEGORIA") VALUES (:yp0) RETURNING "K_IDCATEGORIA" INTO :RETURN_ID' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#14 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/05/03 03:54:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 24374 OCIStmtFetch: ORA-24374: define not done before fetch or execute and fetch
+ (ext\pdo_oci\oci_statement.c:469). La sentencia SQL ejecutada fue: insert into categoria values(2,'sss').
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (72)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/03 03:54:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 24374 OCIStmtFetch: ORA-24374: define not done before fetch or execute and fetch
+ (ext\pdo_oci\oci_statement.c:469). The SQL statement executed was: insert into categoria values(2,'sss')' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(72): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#13 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/05/03 03:55:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 911 OCIStmtExecute: ORA-00911: invalid character
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into categoria values(2,'sss');.
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (72)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/03 03:55:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 911 OCIStmtExecute: ORA-00911: invalid character
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: insert into categoria values(2,'sss');' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(72): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#13 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/05/03 03:55:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 911 OCIStmtExecute: ORA-00911: invalid character
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into categoria values(3,'sasdfass');.
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (72)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/03 03:55:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 911 OCIStmtExecute: ORA-00911: invalid character
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: insert into categoria values(3,'sasdfass');' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(72): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#13 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/05/03 03:56:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 24374 OCIStmtFetch: ORA-24374: define not done before fetch or execute and fetch
+ (ext\pdo_oci\oci_statement.c:469). La sentencia SQL ejecutada fue: insert into categoria values(3,'sasdfass').
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (72)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/03 03:56:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 24374 OCIStmtFetch: ORA-24374: define not done before fetch or execute and fetch
+ (ext\pdo_oci\oci_statement.c:469). The SQL statement executed was: insert into categoria values(3,'sasdfass')' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(72): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#13 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/05/03 04:52:06 [warning] [application] Error al definir unsafe el atributo "K_IDCATEGORIA" de "Categoria".
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (98)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/05/13 01:12:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ListaEspera/index"' in C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('ListaEspera/ind...')
+#1 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interClubProyect/ListaEspera/index
+HTTP_REFERER=http://localhost/interClubProyect/
+---
+2013/05/27 17:55:56 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "cruge_session" definida en la clase active record "CrugeSession" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(CrugeSession))
+#1 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\models\data\CrugeSession.php(193): CActiveRecord::model('CrugeSession')
+#2 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\models\data\CrugeSession.php(90): CrugeSession::model()
+#3 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeFactory.php(46): CrugeSession::loadModel('0')
+#4 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeUserManager.php(412): CrugeFactory->getICrugeSession('0')
+#5 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeWebUser.php(451): CrugeUserManager->loadSession('0')
+#6 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeWebUser.php(229): CrugeWebUser->getICrugeSession()
+#7 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeWebUser.php(242): CrugeWebUser->getId()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\auth\CWebUser.php(194): CrugeWebUser->getIsGuest()
+#9 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeWebUser.php(45): CWebUser->init()
+#10 C:\xampp\htdocs\interClubProyect\framework\base\CModule.php(387): CrugeWebUser->init()
+#11 C:\xampp\htdocs\interClubProyect\framework\base\CModule.php(103): CModule->getComponent('user')
+#12 C:\xampp\htdocs\interClubProyect\protected\views\layouts\main.php(42): CModule->__get('user')
+#13 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\interClubProyect\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\interClubProyect\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#17 C:\xampp\htdocs\interClubProyect\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#18 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(206): COutputProcessor->run()
+#19 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#20 C:\xampp\htdocs\interClubProyect\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#21 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#22 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#23 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#24 C:\xampp\htdocs\interClubProyect\protected\controllers\SiteController.php(32): CController->render('index')
+#25 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#26 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#27 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#28 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('')
+#30 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#31 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#32 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/interClubProyect/
+---
+2013/05/27 17:56:01 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "cruge_session" definida en la clase active record "CrugeSession" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(CrugeSession))
+#1 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\models\data\CrugeSession.php(193): CActiveRecord::model('CrugeSession')
+#2 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\models\data\CrugeSession.php(90): CrugeSession::model()
+#3 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeFactory.php(46): CrugeSession::loadModel('0')
+#4 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeUserManager.php(412): CrugeFactory->getICrugeSession('0')
+#5 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeWebUser.php(451): CrugeUserManager->loadSession('0')
+#6 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeWebUser.php(229): CrugeWebUser->getICrugeSession()
+#7 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeWebUser.php(242): CrugeWebUser->getId()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\auth\CWebUser.php(194): CrugeWebUser->getIsGuest()
+#9 C:\xampp\htdocs\interClubProyect\protected\modules\cruge\components\CrugeWebUser.php(45): CWebUser->init()
+#10 C:\xampp\htdocs\interClubProyect\framework\base\CModule.php(387): CrugeWebUser->init()
+#11 C:\xampp\htdocs\interClubProyect\framework\base\CModule.php(103): CModule->getComponent('user')
+#12 C:\xampp\htdocs\interClubProyect\protected\views\layouts\main.php(42): CModule->__get('user')
+#13 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\interClubProyect\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\interClubProyect\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#17 C:\xampp\htdocs\interClubProyect\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#18 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(206): COutputProcessor->run()
+#19 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#20 C:\xampp\htdocs\interClubProyect\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#21 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#22 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#23 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#24 C:\xampp\htdocs\interClubProyect\protected\controllers\SiteController.php(32): CController->render('index')
+#25 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#26 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#27 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#28 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('')
+#30 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#31 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#32 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/interClubProyect/
+---
+2013/05/27 17:57:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ListaEspera/index"' in C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('ListaEspera/ind...')
+#1 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interClubProyect/ListaEspera/index
+HTTP_REFERER=http://localhost/interClubProyect/Categoria/index
+---

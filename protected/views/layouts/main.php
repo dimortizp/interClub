@@ -29,9 +29,16 @@
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
+				array('label'=>'Administrador', 'url'=>array('/Administrador/index')),
+				array('label'=>'Categoria', 'url'=>array('/Categoria/index')),
+				array('label'=>'Lista de Espera', 'url'=>array('/ListaEspera/index')),
+				array('label'=>'Lugar', 'url'=>array('/Lugar/index')),
+				array('label'=>'Partida', 'url'=>array('/Partida/index')),
+				array('label'=>'Regular', 'url'=>array('/Regular/index')),
+				array('label'=>'Ronda', 'url'=>array('/Ronda/index')),
+				array('label'=>'Socio', 'url'=>array('/Socio/index')),
+				array('label'=>'Tarjeta de credito', 'url'=>array('/TarjetaCredito/index')),
+				array('label'=>'Torneo', 'url'=>array('/Torneo/index')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
