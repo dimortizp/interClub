@@ -3,7 +3,7 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Tarjeta Creditos',
+	'Tarjeta Credito',
 );
 
 $this->menu=array(
