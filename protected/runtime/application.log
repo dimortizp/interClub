@@ -4631,3 +4631,157 @@ Stack trace:
 REQUEST_URI=/interClub/ListaEspera/index
 HTTP_REFERER=http://localhost/interClub/categoria/create
 ---
+2013/06/04 06:03:11 [error] [exception.CDbException] exception 'CDbException' with message 'Tabla "USUARIO" no contiene la columna "select".' in C:\xampp\htdocs\interClubProyect\framework\db\schema\CDbCommandBuilder.php:591
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(COciTableSchema), Object(CDbCriteria), '', Array, '"t".')
+#1 C:\xampp\htdocs\interClubProyect\protected\components\UserIdentity.php(22): CActiveRecord->findByAttributes(Object(CDbCriteria))
+#2 C:\xampp\htdocs\interClubProyect\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\interClubProyect\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\interClubProyect\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\interClubProyect\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\interClubProyect\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interClubProyect/site/login
+HTTP_REFERER=http://localhost/interClubProyect/site/login
+---
+2013/06/04 06:04:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 904 OCIStmtExecute: ORA-00904: "123": invalid identifier
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: SELECT * FROM "USUARIO" "t" WHERE K_CEDULA = "123".
+in C:\xampp\htdocs\interClubProyect\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\interClubProyect\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\interClubProyect\protected\controllers\SiteController.php (94)
+2013/06/04 06:04:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 904 OCIStmtExecute: ORA-00904: "123": invalid identifier
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: SELECT * FROM "USUARIO" "t" WHERE K_CEDULA = "123"' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\interClubProyect\protected\components\UserIdentity.php(22): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\interClubProyect\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#5 C:\xampp\htdocs\interClubProyect\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#6 C:\xampp\htdocs\interClubProyect\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 C:\xampp\htdocs\interClubProyect\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#8 C:\xampp\htdocs\interClubProyect\protected\controllers\SiteController.php(94): CModel->validate()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/interClubProyect/site/login
+HTTP_REFERER=http://localhost/interClubProyect/site/login
+---
+2013/06/04 06:12:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 904 OCIStmtExecute: ORA-00904: "K_CEDUL": invalid identifier
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: SELECT * FROM "USUARIO" "t" WHERE K_CEDUL = 123.
+in C:\xampp\htdocs\interClubProyect\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\interClubProyect\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\interClubProyect\protected\controllers\SiteController.php (94)
+2013/06/04 06:12:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 904 OCIStmtExecute: ORA-00904: "K_CEDUL": invalid identifier
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: SELECT * FROM "USUARIO" "t" WHERE K_CEDUL = 123' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\interClubProyect\protected\components\UserIdentity.php(22): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\interClubProyect\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#5 C:\xampp\htdocs\interClubProyect\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#6 C:\xampp\htdocs\interClubProyect\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 C:\xampp\htdocs\interClubProyect\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#8 C:\xampp\htdocs\interClubProyect\protected\controllers\SiteController.php(94): CModel->validate()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/interClubProyect/site/login
+HTTP_REFERER=http://localhost/interClubProyect/site/login
+---
+2013/06/04 06:22:47 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php:101)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): UsuarioController->runActionWithFilters()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): UsuarioController->run()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/Usuario/index
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/04 06:22:54 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php:101)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): UsuarioController->runActionWithFilters()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): UsuarioController->run()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/Usuario/create
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/04 06:49:49 [error] [exception.CException] exception 'CException' with message 'Propiedad "UserIdentity"."_id" no se encuentra definida.' in C:\xampp\htdocs\interClubProyect\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\protected\components\UserIdentity.php(25): CComponent->__set('_id', '1234')
+#1 C:\xampp\htdocs\interClubProyect\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\interClubProyect\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\interClubProyect\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\interClubProyect\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\interClubProyect\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/interClubProyect/site/login
+HTTP_REFERER=http://localhost/interClubProyect/site/login
+---
+2013/06/04 06:56:16 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php:101)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): UsuarioController->runActionWithFilters()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): UsuarioController->run()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/usuario/
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/04 07:03:06 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php:101)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): UsuarioController->runActionWithFilters()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): UsuarioController->run()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/usuario/
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/04 07:03:07 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php:101)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): UsuarioController->runActionWithFilters()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): UsuarioController->run()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/usuario/1234
+in C:\xampp\htdocs\interClubProyect\index.php (13)

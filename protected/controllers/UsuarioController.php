@@ -26,7 +26,7 @@ class UsuarioController extends Controller
 	 */
 	public function accessRules()
 	{
-		return array(
+		/*return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
 				'users'=>array('*'),
@@ -42,7 +42,7 @@ class UsuarioController extends Controller
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
-		);
+		);*/
 	}
 
 	/**
@@ -69,9 +69,10 @@ class UsuarioController extends Controller
 
 		if(isset($_POST['Usuario']))
 		{
-			$model->attributes=$_POST['Usuario'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->K_CEDULA));
+			$datos=$_POST['Usuario'];
+                    $parametros=$datos['K_CEDULA'].", '".$datos['N_CORREO']."'".", '".$datos['N_NOMBRES']."'".", '".$datos['N_APELLIDOS']."'".", '".$datos['I_ROL']."'".", '".$datos['O_PASSWORD']."'";
+			if(Yii::app()->db->createCommand("insert into USUARIO values(".$parametros.")")->query())
+				$this->redirect(array('view','id'=>$datos['K_CEDULA']));
 		}
 
 		$this->render('create',array(

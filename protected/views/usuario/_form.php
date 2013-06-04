@@ -16,6 +16,12 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
+		<?php echo $form->labelEx($model,'K_CEDULA'); ?>
+		<?php echo $form->textField($model,'K_CEDULA',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->error($model,'K_CEDULA'); ?>
+	</div>
+        
+        <div class="row">
 		<?php echo $form->labelEx($model,'N_CORREO'); ?>
 		<?php echo $form->textField($model,'N_CORREO',array('size'=>50,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'N_CORREO'); ?>
