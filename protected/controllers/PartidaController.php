@@ -66,11 +66,13 @@ class PartidaController extends Controller
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
+                
+                
 
 		if(isset($_POST['Partida']))
 		{
 			$model->attributes=$_POST['Partida'];
-			if($model->save())
+			if(Partida::model()->insert(array('attributes'=>$_POST['Partida'])))
 				$this->redirect(array('view','id'=>$model->K_IDPARTIDA));
 		}
 

@@ -69,11 +69,10 @@ class CategoriaController extends Controller
 
 		if(isset($_POST['Categoria']))
 		{
-                    Yii::app()->db->createCommand("insert into categoria values(4,'sasdfass')")->query();
-                    //print_r($list);
-			/*$model->attributes=$_POST['Categoria'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->K_IDCATEGORIA));*/
+                    $datos=$_POST['Categoria'];
+                    $parametros=$datos['K_IDCATEGORIA'].", '".$datos['N_CATEGORIA']."'";
+			if(Yii::app()->db->createCommand("insert into categoria values(".$parametros.")")->query())
+				$this->redirect(array('view','id'=>$datos['N_IDCATEGORIA']));
 		}
 
 		$this->render('create',array(

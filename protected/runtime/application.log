@@ -684,3 +684,241 @@ Stack trace:
 REQUEST_URI=/interClubProyect/ListaEspera/index
 HTTP_REFERER=http://localhost/interClubProyect/Categoria/index
 ---
+2013/06/03 19:15:20 [error] [exception.CDbException] exception 'CDbException' with message 'El active record no puede ser insertado a la base de datos porque no es nuevo.' in C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:1016
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(72): CActiveRecord->insert(Array)
+#1 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#12 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/06/03 19:17:10 [error] [exception.CDbException] exception 'CDbException' with message 'El active record no puede ser insertado a la base de datos porque no es nuevo.' in C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:1016
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(72): CActiveRecord->insert(Array)
+#1 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#12 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/06/03 19:18:15 [error] [exception.CDbException] exception 'CDbException' with message 'El active record no puede ser insertado a la base de datos porque no es nuevo.' in C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:1016
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(71): CActiveRecord->insert(Array)
+#1 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#12 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/06/03 19:19:57 [error] [php] property_exists() expects parameter 2 to be string, array given (C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:758)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(72): Categoria->insert()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CategoriaController->runAction()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CategoriaController->filterAccessControl()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CategoriaController->runActionWithFilters()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CategoriaController->run()
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/categoria/create
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (72)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:20:49 [error] [php] property_exists() expects parameter 2 to be string, array given (C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:758)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(72): Categoria->insert()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CategoriaController->runAction()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CategoriaController->filterAccessControl()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CategoriaController->runActionWithFilters()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CategoriaController->run()
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/categoria/create
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (72)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:21:56 [error] [php] property_exists() expects parameter 2 to be string, array given (C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:758)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(72): Categoria->insert()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CategoriaController->runAction()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CategoriaController->filterAccessControl()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CategoriaController->runActionWithFilters()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CategoriaController->run()
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/categoria/create
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (72)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:24:49 [error] [php] property_exists() expects parameter 2 to be string, array given (C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:758)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(74): Categoria->insert()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CategoriaController->runAction()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CategoriaController->filterAccessControl()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CategoriaController->runActionWithFilters()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CategoriaController->run()
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/categoria/create
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (74)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:25:25 [error] [php] property_exists() expects parameter 2 to be string, array given (C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:758)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(74): Categoria->insert()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CategoriaController->runAction()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CategoriaController->filterAccessControl()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CategoriaController->runActionWithFilters()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CategoriaController->run()
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/categoria/create
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (74)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:28:22 [error] [php] property_exists() expects parameter 2 to be string, array given (C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php:758)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(73): Categoria->insert()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CategoriaController->runAction()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CategoriaController->filterAccessControl()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CategoriaController->runActionWithFilters()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CategoriaController->run()
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/categoria/create
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (73)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:38:01 [warning] [application] Error al definir unsafe el atributo "K_IDCATEGORIA" de "Categoria".
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (74)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:39:45 [warning] [application] Error al definir unsafe el atributo "K_IDCATEGORIA" de "Categoria".
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (74)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:39:45 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("AJEDREZ"."CATEGORIA"."N_CATEGORIA")
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into categoria values(8, '').
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (75)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:39:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("AJEDREZ"."CATEGORIA"."N_CATEGORIA")
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: insert into categoria values(8, '')' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php(376): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(75): CDbCommand->query()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#13 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/06/03 19:40:31 [warning] [application] Error al definir unsafe el atributo "K_IDCATEGORIA" de "Categoria".
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (74)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:40:31 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("AJEDREZ"."CATEGORIA"."N_CATEGORIA")
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into categoria values(8, '').
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (75)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/03 19:40:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("AJEDREZ"."CATEGORIA"."N_CATEGORIA")
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: insert into categoria values(8, '')' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php(376): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(75): CDbCommand->query()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionCreate()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('categoria/creat...')
+#13 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interClubProyect/categoria/create
+HTTP_REFERER=http://localhost/interClubProyect/categoria/create
+---
+2013/06/03 19:40:57 [warning] [application] Error al definir unsafe el atributo "K_IDCATEGORIA" de "Categoria".
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (74)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
