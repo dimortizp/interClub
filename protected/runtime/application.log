@@ -4632,6 +4632,7 @@ REQUEST_URI=/interClub/ListaEspera/index
 HTTP_REFERER=http://localhost/interClub/categoria/create
 ---
 2013/06/04 06:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ListaEspera/index"' in C:\xampp\htdocs\interClub\framework\web\CWebApplication.php:286
+2013/06/04 06:03:11 [error] [exception.CDbException] exception 'CDbException' with message 'Tabla "USUARIO" no contiene la columna "select".' in C:\xampp\htdocs\interClubProyect\framework\db\schema\CDbCommandBuilder.php:591
 Stack trace:
 #0 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('ListaEspera/ind...')
 #1 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
