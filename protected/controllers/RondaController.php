@@ -68,10 +68,17 @@ class RondaController extends Controller
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Ronda']))
-		{
-			$model->attributes=$_POST['Ronda'];
+		{                    
+                    $datos=$_POST['Ronda']; 
+					$aux1 = (string)$datos['K_IDTORNEO'];	
+					$aux2 = (string)$datos['K_IDRONDA'];						
+                    $id=$aux1.$aux2;
+					$res=(int)$id;
+			$parametros=$res.",".$datos['Q_NUMERORONDA'].",'".$datos['I_ESTADORONDA']."',".$datos['K_IDTORNEO'];
+          if(Yii::app()->db->createCommand("insert into ronda values(".$parametros.")")->query());
+			/*$model->attributes=$_POST['Ronda'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->K_IDRONDA));
+				$this->redirect(array('view','id'=>$model->K_IDRONDA));*/
 		}
 
 		$this->render('create',array(

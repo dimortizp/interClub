@@ -15,6 +15,13 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
+        
+        <div class="row">
+		<?php echo $form->labelEx($model,'K_IDLUGAR'); ?>
+		<?php echo $form->textField($model,'K_IDLUGAR'); ?>
+		<?php echo $form->error($model,'K_IDLUGAR'); ?>
+	</div>
+        
 	<div class="row">
 		<?php echo $form->labelEx($model,'O_DIRECCION'); ?>
 		<?php echo $form->textField($model,'O_DIRECCION',array('size'=>20,'maxlength'=>20)); ?>

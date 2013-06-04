@@ -41,7 +41,7 @@ class Ronda extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Q_NUMERORONDA, I_ESTADORONDA, K_IDTORNEO', 'required'),
+			array('K_IDRONDA,Q_NUMERORONDA, I_ESTADORONDA, K_IDTORNEO', 'required'),
 			array('K_IDTORNEO', 'numerical', 'integerOnly'=>true),
 			array('Q_NUMERORONDA', 'length', 'max'=>4),
 			array('I_ESTADORONDA', 'length', 'max'=>1),
@@ -70,10 +70,10 @@ class Ronda extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'K_IDRONDA' => 'K Idronda',
-			'Q_NUMERORONDA' => 'Q Numeroronda',
-			'I_ESTADORONDA' => 'I Estadoronda',
-			'K_IDTORNEO' => 'K Idtorneo',
+			'K_IDRONDA' => 'Id ronda',
+			'Q_NUMERORONDA' => 'Ronda Numero',
+			'I_ESTADORONDA' => 'Estado Ronda',
+			'K_IDTORNEO' => 'Id torneo',
 		);
 	}
 

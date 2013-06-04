@@ -39,7 +39,7 @@ class Lugar extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('O_DIRECCION, N_SITIO', 'required'),
+			array('K_IDLUGAR,O_DIRECCION, N_SITIO', 'required'),
 			array('O_DIRECCION, N_SITIO', 'length', 'max'=>20),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -65,9 +65,9 @@ class Lugar extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'K_IDLUGAR' => 'K Idlugar',
-			'O_DIRECCION' => 'O Direccion',
-			'N_SITIO' => 'N Sitio',
+			'K_IDLUGAR' => 'Id lugar',
+			'O_DIRECCION' => 'Direccion',
+			'N_SITIO' => 'Nombre del Sitio',
 		);
 	}
 

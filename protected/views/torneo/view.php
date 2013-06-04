@@ -26,5 +26,6 @@ $this->menu=array(
 		'F_FINAL',
 		'I_ESTADOTORNEO',
 		'K_IDCATEGORIA',
+            'Q_PARTICIPANTES',
 	),
 )); ?>

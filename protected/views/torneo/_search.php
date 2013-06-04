@@ -35,6 +35,11 @@
 		<?php echo $form->label($model,'K_IDCATEGORIA'); ?>
 		<?php echo $form->textField($model,'K_IDCATEGORIA'); ?>
 	</div>
+    
+    <div class="row">
+		<?php echo $form->label($model,'Q_PARTICIPANTES'); ?>
+		<?php echo $form->textField($model,'Q_PARTICIPANTES'); ?>
+	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>

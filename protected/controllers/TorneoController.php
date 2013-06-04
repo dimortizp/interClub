@@ -63,21 +63,39 @@ class TorneoController extends Controller
 	public function actionCreate()
 	{
 		$model=new Torneo;
-
-		// Uncomment the following line if AJAX validation is needed
+ 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Torneo']))
-		{
-			$model->attributes=$_POST['Torneo'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->K_IDTORNEO));
-		}
+		{               
+                    $datos=$_POST['Torneo'];  		
+          if($datos['F_INICIO']<=$datos['F_FINAL']){
+		 $date = time();
+		 $fecha = date("d m Y",$date) ;
+		 if($datos['F_FINAL']>=$fecha){
+                      if($datos['F_INICIO']>$fecha){
+                        $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."', 'A' ,".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
+ if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());  
+                      }
+                      else{
+                           $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."', 'J' ,".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
+ if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());  
+                      } 
 
+		} 
+		else {
+        $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."','F',".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
+ if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());
+ 	  } 
+				}					  
+                        else {
+                      echo '<script>alert("La fecha final debe ser menor a la inicial")</script>';  }        
+                }
 		$this->render('create',array(
 			'model'=>$model,
 		));
-	}
+	
+        }
 
 	/**
 	 * Updates a particular model.
@@ -92,10 +110,15 @@ class TorneoController extends Controller
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Torneo']))
-		{
-			$model->attributes=$_POST['Torneo'];
+		{  
+                       $model->attributes=$_POST['Torneo'];
+            if($model->attributes['F_INICIO']<=$model->attributes['F_FINAL']){
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->K_IDTORNEO));
+            }
+             else {
+                      echo '<script>alert("La fecha final debe ser menor a la inicial")</script>';  }        
+		
 		}
 
 		$this->render('update',array(
