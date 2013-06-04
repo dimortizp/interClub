@@ -42,12 +42,12 @@ class Torneo extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('F_INICIO, F_FINAL, I_ESTADOTORNEO, K_IDCATEGORIA', 'required'),
+			array('K_IDTORNEO,F_INICIO, F_FINAL, I_ESTADOTORNEO, K_IDCATEGORIA, Q_PARTICIPANTES', 'required'),
 			array('K_IDCATEGORIA', 'numerical', 'integerOnly'=>true),
 			array('I_ESTADOTORNEO', 'length', 'max'=>1),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('K_IDTORNEO, F_INICIO, F_FINAL, I_ESTADOTORNEO, K_IDCATEGORIA', 'safe', 'on'=>'search'),
+			array('K_IDTORNEO, F_INICIO, F_FINAL, I_ESTADOTORNEO, K_IDCATEGORIA, Q_PARTICIPANTES', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -70,11 +70,12 @@ class Torneo extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'K_IDTORNEO' => 'K Idtorneo',
-			'F_INICIO' => 'F Inicio',
-			'F_FINAL' => 'F Final',
-			'I_ESTADOTORNEO' => 'I Estadotorneo',
-			'K_IDCATEGORIA' => 'K Idcategoria',
+			'K_IDTORNEO' => 'Id Torneo',
+			'F_INICIO' => 'Fecha de Inicio del Torneo',
+			'F_FINAL' => 'Fecha Final del torneo',
+			'I_ESTADOTORNEO' => 'Estado del torneo',
+			'K_IDCATEGORIA' => 'Categoria',
+                    'Q_PARTICIPANTES'=> 'Número de Participantes',
 		);
 	}
 
@@ -94,7 +95,7 @@ class Torneo extends CActiveRecord
 		$criteria->compare('F_FINAL',$this->F_FINAL,true);
 		$criteria->compare('I_ESTADOTORNEO',$this->I_ESTADOTORNEO,true);
 		$criteria->compare('K_IDCATEGORIA',$this->K_IDCATEGORIA);
-
+                $criteria->compare('Q_PARTICIPANTES',$this->Q_PARTICIPANTES);
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

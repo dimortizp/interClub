@@ -66,8 +66,8 @@ class Categoria extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'K_IDCATEGORIA' => 'K Idcategoria',
-			'N_CATEGORIA' => 'N Categoria',
+			'K_IDCATEGORIA' => 'Id categoria',
+			'N_CATEGORIA' => 'Tipo Categoria',
 		);
 	}
 
