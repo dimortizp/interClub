@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Torneo', 'url'=>array('create')),
-	array('label'=>'Manage Torneo', 'url'=>array('admin')),
+	array('label'=>'Crear Torneo', 'url'=>array('create')),
+	array('label'=>'Inscribirse en un torneo', 'url'=>array('index1')),
 );
 ?>
 

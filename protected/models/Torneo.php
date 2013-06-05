@@ -100,4 +100,23 @@ class Torneo extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	public function searchA()
+	{
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
+                $A='J';
+
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('K_IDTORNEO',$this->K_IDTORNEO);
+		$criteria->compare('F_INICIO',$this->F_INICIO,true);
+		$criteria->compare('F_FINAL',$this->F_FINAL,true);
+		$criteria->compare('I_ESTADOTORNEO',$A,true);
+		$criteria->compare('K_IDCATEGORIA',$this->K_IDCATEGORIA);
+                $criteria->compare('Q_PARTICIPANTES',$this->Q_PARTICIPANTES);
+                //if( $this->I_ESTADOTORNEO='F')
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
 }

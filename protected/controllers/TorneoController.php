@@ -28,11 +28,11 @@ class TorneoController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','index1'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','index1'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -274,9 +274,6 @@ class TorneoController extends Controller
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
 
-	/**
-	 * Lists all models.
-	 */
 	public function actionIndex()
 	{
 		$dataProvider=new CActiveDataProvider('Torneo');
@@ -285,7 +282,22 @@ class TorneoController extends Controller
 		));
 	}
 
-	/**
+	
+        public function actionIndex1()
+	{
+            $model=new Torneo('searchj');
+            $model->unsetAttributes();
+            if(isset($_GET['Torneo'])){
+                $model->attributes=$_GET['Torneo'];
+            }
+                
+		//$dataProvider=new CActiveDataProvider('Torneo');
+		$this->render('index1',array(
+			//'dataProvider'=>$dataProvider,
+                    'model'=>$model,
+		));
+	}
+        /**
 	 * Manages all models.
 	 */
 	public function actionAdmin()
