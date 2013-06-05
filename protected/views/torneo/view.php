@@ -13,6 +13,7 @@ $this->menu=array(
 	array('label'=>'Update Torneo', 'url'=>array('update', 'id'=>$model->K_IDTORNEO)),
 	array('label'=>'Eliminar Torneo', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDTORNEO),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
 	array('label'=>'Manage Torneo', 'url'=>array('admin')),
+
 );
 ?>
 
