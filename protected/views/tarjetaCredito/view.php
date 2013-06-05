@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'List TarjetaCredito', 'url'=>array('index')),
 	array('label'=>'Create TarjetaCredito', 'url'=>array('create')),
 	array('label'=>'Update TarjetaCredito', 'url'=>array('update', 'id'=>$model->K_NUMEROTARJETA)),
-	array('label'=>'Delete TarjetaCredito', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_NUMEROTARJETA),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Delete TarjetaCredito', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_NUMEROTARJETA),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
 	array('label'=>'Manage TarjetaCredito', 'url'=>array('admin')),
 );
 ?>

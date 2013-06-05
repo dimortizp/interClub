@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'List Partida', 'url'=>array('index')),
 	array('label'=>'Create Partida', 'url'=>array('create')),
 	array('label'=>'Update Partida', 'url'=>array('update', 'id'=>$model->K_IDPARTIDA)),
-	array('label'=>'Delete Partida', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDPARTIDA),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Delete Partida', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDPARTIDA),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
 	array('label'=>'Manage Partida', 'url'=>array('admin')),
 );
 ?>

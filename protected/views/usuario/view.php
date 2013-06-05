@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'List Usuario', 'url'=>array('index')),
 	array('label'=>'Create Usuario', 'url'=>array('create')),
 	array('label'=>'Update Usuario', 'url'=>array('update', 'id'=>$model->K_CEDULA)),
-	array('label'=>'Delete Usuario', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_CEDULA),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Delete Usuario', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_CEDULA),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
 	array('label'=>'Manage Usuario', 'url'=>array('admin')),
 );
 ?>

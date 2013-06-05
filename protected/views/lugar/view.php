@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'Lista Lugar', 'url'=>array('index')),
 	array('label'=>'Crear Lugar', 'url'=>array('create')),
 	array('label'=>'Actulizar Lugar', 'url'=>array('update', 'id'=>$model->K_IDLUGAR)),
-	array('label'=>'Eliminar Lugar', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDLUGAR),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Eliminar Lugar', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDLUGAR),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
 	array('label'=>'Administrar Lugar', 'url'=>array('admin')),
 );
 ?>

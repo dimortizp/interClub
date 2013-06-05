@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'Lista de Torneos', 'url'=>array('index')),
 	array('label'=>'Crear Torneo', 'url'=>array('create')),
 	array('label'=>'Actulizar Torneo', 'url'=>array('update', 'id'=>$model->K_IDTORNEO)),
-	array('label'=>'Eliminar Torneo', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDTORNEO),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Eliminar Torneo', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDTORNEO),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
 	array('label'=>'Administrar Torneo', 'url'=>array('admin')),
 );
 ?>

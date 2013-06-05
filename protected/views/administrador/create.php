@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Administrador', 'url'=>array('index')),
-	array('label'=>'Manage Administrador', 'url'=>array('admin')),
+	array('label'=>'Lista de Administradores', 'url'=>array('index')),
+	array('label'=>'Administrar Administradores', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Administrador</h1>
+<h1>Crear Administrador</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

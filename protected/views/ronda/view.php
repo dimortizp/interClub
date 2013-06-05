@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'List Ronda', 'url'=>array('index')),
 	array('label'=>'Create Ronda', 'url'=>array('create')),
 	array('label'=>'Update Ronda', 'url'=>array('update', 'id'=>$model->K_IDRONDA)),
-	array('label'=>'Delete Ronda', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDRONDA),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Delete Ronda', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDRONDA),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
 	array('label'=>'Manage Ronda', 'url'=>array('admin')),
 );
 ?>

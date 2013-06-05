@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'List Administrador', 'url'=>array('index')),
 	array('label'=>'Create Administrador', 'url'=>array('create')),
 	array('label'=>'Update Administrador', 'url'=>array('update', 'id'=>$model->K_CEDULA)),
-	array('label'=>'Delete Administrador', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_CEDULA),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Delete Administrador', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_CEDULA),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
 	array('label'=>'Manage Administrador', 'url'=>array('admin')),
 );
 ?>
