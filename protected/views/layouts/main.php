@@ -35,7 +35,7 @@
 				array('label'=>'Partida', 'url'=>array('/Partida/index')),
                                 array('label'=>'Usuarios', 'url'=>array('/Usuario/index')),
                                 array('label'=>'Administrador', 'url'=>array('/Administrador/index')),
-                                array('label'=>'Regular', 'url'=>array('/Socio/index')),
+                                array('label'=>'Socio', 'url'=>array('/Socio/index')),
                                 array('label'=>'Regular', 'url'=>array('/Regular/index')),
                                 array('label'=>'Cortecia', 'url'=>array('/Cortecia/index')),
 				array('label'=>'Ronda', 'url'=>array('/Ronda/index')),
