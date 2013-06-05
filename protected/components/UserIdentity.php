@@ -23,8 +23,7 @@ private $_id;
             $this->errorCode = self::ERROR_PASSWORD_INVALID;
         else {
             $this->_id = $record->K_CEDULA;
-            if($record->I_ROL =="A")
-                $this->setState('rol', $record->I_ROL);
+            $this->getUserType();
             $this->errorCode = self::ERROR_NONE;
         }
         return !$this->errorCode;
@@ -32,9 +31,33 @@ private $_id;
 
     public function getId()
     {
-        return $this->_id;
+        return "adsfa";
     }
     public function getUserType(){
-        
+        $usuarios = Usuario::model()->findByPk($this->username);
+        $rol=$usuarios->I_ROL;
+        $rolVerificado;
+        switch ($rol){
+            case "A":
+                $admin = Administrador::model()->findByPk($this->username);
+                if(count($admin)==1){
+                    $rolVerificado="Administrador";
+                }else{
+                    $rolVerificado="";
+                }
+                break;
+            case "S":
+                if(Regular::model()->findByPk($this->username)==1)
+                    $rolVerificado="Regular";
+                else if(Cortecia::model()->findByPk($this->username)==1)
+                    $rolVerificado="Cortecia";
+                else
+                    $rolVerificado="";
+                break;
+            default:
+                    $rolVerificado="";
+                break;
+        }
+        $this->setState("rol", $rol);
     }
 }

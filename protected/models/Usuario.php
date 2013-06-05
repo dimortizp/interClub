@@ -43,7 +43,7 @@ class Usuario extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('N_CORREO, N_NOMBRES, N_APELLIDOS, I_ROL, O_PASSWORD', 'required'),
+			array('K_CEDULA, N_CORREO, N_NOMBRES, N_APELLIDOS, I_ROL, O_PASSWORD', 'required'),
 			array('N_CORREO, N_NOMBRES, N_APELLIDOS', 'length', 'max'=>50),
 			array('I_ROL', 'length', 'max'=>1),
 			array('O_PASSWORD', 'length', 'max'=>32),
@@ -72,12 +72,12 @@ class Usuario extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'K_CEDULA' => 'K Cedula',
-			'N_CORREO' => 'N Correo',
-			'N_NOMBRES' => 'N Nombres',
-			'N_APELLIDOS' => 'N Apellidos',
-			'I_ROL' => 'I Rol',
-			'O_PASSWORD' => 'O Password',
+			'K_CEDULA' => 'Numero de identificacion',
+			'N_CORREO' => 'Correo electronico',
+			'N_NOMBRES' => 'Nombres',
+			'N_APELLIDOS' => 'Apellidos',
+			'I_ROL' => 'Rol',
+			'O_PASSWORD' => 'Clave',
 		);
 	}
 
