@@ -54,7 +54,7 @@ class Regular extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'kCEDULA' => array(self::BELONGS_TO, 'SOCIO', 'K_CEDULA'),
-			'tARJETACREDITO' => array(self::HAS_ONE, 'TARJETACREDITO', 'K_NUMEROTARJETA'),
+			'tARJETACREDITO' => array(self::HAS_ONE, 'TARJETACREDITO', 'K_CEDULA'),
 		);
 	}
 
