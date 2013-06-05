@@ -16,6 +16,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Update Lugar <?php echo $model->K_IDLUGAR; ?></h1>
+<h1>Actulizar Lugares <?php echo $model->K_IDLUGAR; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

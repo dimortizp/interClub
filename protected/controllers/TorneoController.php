@@ -74,22 +74,26 @@ class TorneoController extends Controller
 		 $fecha = date("d m Y",$date) ;
 		 if($datos['F_FINAL']>=$fecha){
                       if($datos['F_INICIO']>$fecha){
-                        $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."', 'A' ,".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
- if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());  
+                        //$parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."', 'A' ,".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];   // en mi modelo no tengo participantes  modificado por Rafael
+                        $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."', 'A' ,".$datos['K_IDCATEGORIA'];
+                            if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());  
+                            $this->redirect(array('view','id'=>$model->K_IDTORNEO));
                       }
                       else{
-                           $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."', 'J' ,".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
- if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());  
+                        //$parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."', 'J' ,".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];    // en mi modelo no tengo participantes modificado por Rafael 
+                        $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."', 'J' ,".$datos['K_IDCATEGORIA'];
+                            if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());  
+                            $this->redirect(array('view','id'=>$model->K_IDTORNEO));
                       } 
 
 		} 
 		else {
-        $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."','F',".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
- if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());
- 	  } 
+                    $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."','F',".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
+                    if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());
+                } 
 				}					  
                         else {
-                      echo '<script>alert("La fecha final debe ser menor a la inicial")</script>';  }        
+                      echo '<script>alert("La fecha final debe ser despues a la inicial")</script>';  }        
                 }
 		$this->render('create',array(
 			'model'=>$model,

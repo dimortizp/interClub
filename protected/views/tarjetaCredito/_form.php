@@ -11,10 +11,16 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'K_NUMEROTARJETA'); ?>
+		<?php echo $form->textField($model,'K_NUMEROTARJETA'); ?>
+		<?php echo $form->error($model,'K_NUMEROTARJETA'); ?>
+	</div>
+        
 	<div class="row">
 		<?php echo $form->labelEx($model,'O_CODIGOVERIFICACION'); ?>
 		<?php echo $form->textField($model,'O_CODIGOVERIFICACION'); ?>
@@ -36,6 +42,15 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'F_VENCIMIENTO'); ?>
 		<?php echo $form->textField($model,'F_VENCIMIENTO'); ?>
+                <?php                    
+                    /*$this->widget('CJuiDateTimePicker',array(
+                            'language'=>'',
+                            'model'=>$model,                        // Model object
+                            'attribute'=>'F_VENCIMIENTO',           // Attribute name
+                            'mode'=>'datetime',                     // Use "time","date" or "datetime" (default)
+                            'options'=>array(),                     // jquery plugin options
+                            'htmlOptions'=>array('readonly'=>true)  // HTML options
+                    ));*/ ?>  
 		<?php echo $form->error($model,'F_VENCIMIENTO'); ?>
 	</div>
 

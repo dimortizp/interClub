@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Regular', 'url'=>array('create')),
-	array('label'=>'Manage Regular', 'url'=>array('admin')),
+	array('label'=>'Crear Regular', 'url'=>array('create')),
+	array('label'=>'Administrar Regular', 'url'=>array('admin')),
 );
 ?>
 

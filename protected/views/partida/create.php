@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Partida', 'url'=>array('index')),
-	array('label'=>'Manage Partida', 'url'=>array('admin')),
+	array('label'=>'Lista Partida', 'url'=>array('index')),
+	array('label'=>'Administrar Partida', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Partida</h1>
+<h1>Crear Partida</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

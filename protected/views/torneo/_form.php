@@ -11,7 +11,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
         <div class="row">
@@ -33,15 +33,21 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->labelEx($model,'I_ESTADOTORNEO'); ?>
+		<?php echo $form->textField($model,'I_ESTADOTORNEO'); ?>
+		<?php echo $form->error($model,'I_ESTADOTORNEO'); ?>
+	</div>
+        
+	<div class="row">
 		<?php echo $form->labelEx($model,'K_IDCATEGORIA'); ?>
 		<?php echo $form->textField($model,'K_IDCATEGORIA'); ?>
 		<?php echo $form->error($model,'K_IDCATEGORIA'); ?>
 	</div>
         
         <div class="row">
-		<?php echo $form->labelEx($model,'Q_PARTICIPANTES'); ?>
-		<?php echo $form->textField($model,'Q_PARTICIPANTES'); ?>
-		<?php echo $form->error($model,'Q_PARTICIPANTES'); ?>
+		<?php // echo $form->labelEx($model,'Q_PARTICIPANTES'); ?>
+		<?php // echo $form->textField($model,'Q_PARTICIPANTES'); ?>
+		<?php // echo $form->error($model,'Q_PARTICIPANTES'); ?>
 	</div>
 
 	<div class="row buttons">

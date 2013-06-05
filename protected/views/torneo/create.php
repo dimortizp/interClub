@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Torneo', 'url'=>array('index')),
-	array('label'=>'Manage Torneo', 'url'=>array('admin')),
+	array('label'=>'Lista de Torneos', 'url'=>array('index')),
+	array('label'=>'Administrar Torneos', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Torneo</h1>
+<h1>Crear Torneo</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

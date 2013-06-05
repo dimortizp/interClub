@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Lugar', 'url'=>array('index')),
-	array('label'=>'Create Lugar', 'url'=>array('create')),
-	array('label'=>'Update Lugar', 'url'=>array('update', 'id'=>$model->K_IDLUGAR)),
-	array('label'=>'Delete Lugar', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDLUGAR),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Lugar', 'url'=>array('admin')),
+	array('label'=>'Lista Lugar', 'url'=>array('index')),
+	array('label'=>'Crear Lugar', 'url'=>array('create')),
+	array('label'=>'Actulizar Lugar', 'url'=>array('update', 'id'=>$model->K_IDLUGAR)),
+	array('label'=>'Eliminar Lugar', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_IDLUGAR),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Administrar Lugar', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Lugar #<?php echo $model->K_IDLUGAR; ?></h1>
+<h1>Lugar # <?php echo $model->K_IDLUGAR; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
