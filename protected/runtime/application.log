@@ -8155,3 +8155,235 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/interClub/ListaEspera
 ---
+2013/06/05 12:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ListaEspera"' in C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('ListaEspera')
+#1 C:\xampp\htdocs\ICF\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ICF\interClub\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ICF/interClub/ListaEspera
+HTTP_REFERER=http://localhost/ICF/interClub/torneo/index1
+---
+2013/06/05 12:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ListaEspera"' in C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('ListaEspera')
+#1 C:\xampp\htdocs\ICF\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ICF\interClub\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ICF/interClub/ListaEspera
+HTTP_REFERER=http://localhost/ICF/interClub/torneo/index1
+---
+2013/06/05 12:36:06 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 2291 OCIStmtExecute: ORA-02291: integrity constraint (AJEDREZ.FK_RONDA_TORNEO) violated - parent key not found
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into ronda values(545121,1,'A',54512).
+in C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php (78)
+in C:\xampp\htdocs\ICF\interClub\index.php (13)
+2013/06/05 12:36:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 2291 OCIStmtExecute: ORA-02291: integrity constraint (AJEDREZ.FK_RONDA_TORNEO) violated - parent key not found
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: insert into ronda values(545121,1,'A',54512)' in C:\xampp\htdocs\ICF\interClub\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\ICF\interClub\framework\db\CDbCommand.php(376): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php(78): CDbCommand->query()
+#2 C:\xampp\htdocs\ICF\interClub\framework\web\actions\CInlineAction.php(49): RondaController->actionCreate()
+#3 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('ronda/create')
+#13 C:\xampp\htdocs\ICF\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\ICF\interClub\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/ICF/interClub/ronda/create
+HTTP_REFERER=http://localhost/ICF/interClub/ronda/create
+---
+2013/06/05 12:43:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 4030 OCIStmtFetch: ORA-04030: out of process memory when trying to allocate 58252 bytes (QERHJ hash-joi,kllcqc:kllcqslt)
+ (ext\pdo_oci\oci_statement.c:469). La sentencia SQL ejecutada fue: SELECT a.column_name, a.data_type ||
+    case
+        when data_precision is not null
+            then '(' || a.data_precision ||
+                    case when a.data_scale > 0 then ',' || a.data_scale else '' end
+                || ')'
+        when data_type = 'DATE' then ''
+        when data_type = 'NUMBER' then ''
+        else '(' || to_char(a.data_length) || ')'
+    end as data_type,
+    a.nullable, a.data_default,
+    (   SELECT D.constraint_type
+        FROM ALL_CONS_COLUMNS C
+        inner join ALL_constraints D on D.OWNER = C.OWNER and D.constraint_name = C.constraint_name
+        WHERE C.OWNER = B.OWNER
+           and C.table_name = B.object_name
+           and C.column_name = A.column_name
+           and D.constraint_type = 'P') as Key,
+    com.comments as column_comment
+FROM ALL_TAB_COLUMNS A
+inner join ALL_OBJECTS B ON b.owner = a.owner and ltrim(B.OBJECT_NAME) = ltrim(A.TABLE_NAME)
+LEFT JOIN user_col_comments com ON (A.table_name = com.table_name AND A.column_name = com.column_name)
+WHERE
+    a.owner = 'AJEDREZ'
+	and (b.object_type = 'TABLE' or b.object_type = 'VIEW')
+	and b.object_name = 'RONDA'
+ORDER by a.column_id.
+in C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php (65)
+in C:\xampp\htdocs\ICF\interClub\index.php (13)
+2013/06/05 12:43:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 4030 OCIStmtFetch: ORA-04030: out of process memory when trying to allocate 58252 bytes (QERHJ hash-joi,kllcqc:kllcqslt)
+ (ext\pdo_oci\oci_statement.c:469). The SQL statement executed was: SELECT a.column_name, a.data_type ||
+    case
+        when data_precision is not null
+            then '(' || a.data_precision ||
+                    case when a.data_scale > 0 then ',' || a.data_scale else '' end
+                || ')'
+        when data_type = 'DATE' then ''
+        when data_type = 'NUMBER' then ''
+        else '(' || to_char(a.data_length) || ')'
+    end as data_type,
+    a.nullable, a.data_default,
+    (   SELECT D.constraint_type
+        FROM ALL_CONS_COLUMNS C
+        inner join ALL_constraints D on D.OWNER = C.OWNER and D.constraint_name = C.constraint_name
+        WHERE C.OWNER = B.OWNER
+           and C.table_name = B.object_name
+           and C.column_name = A.column_name
+           and D.constraint_type = 'P') as Key,
+    com.comments as column_comment
+FROM ALL_TAB_COLUMNS A
+inner join ALL_OBJECTS B ON b.owner = a.owner and ltrim(B.OBJECT_NAME) = ltrim(A.TABLE_NAME)
+LEFT JOIN user_col_comments com ON (A.table_name = com.table_name AND A.column_name = com.column_name)
+WHERE
+    a.owner = 'AJEDREZ'
+	and (b.object_type = 'TABLE' or b.object_type = 'VIEW')
+	and b.object_name = 'RONDA'
+ORDER by a.column_id' in C:\xampp\htdocs\ICF\interClub\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\ICF\interClub\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\ICF\interClub\framework\db\schema\oci\COciSchema.php(197): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\ICF\interClub\framework\db\schema\oci\COciSchema.php(121): COciSchema->findColumns(Object(COciTableSchema))
+#3 C:\xampp\htdocs\ICF\interClub\framework\db\schema\CDbSchema.php(103): COciSchema->loadTable('RONDA')
+#4 C:\xampp\htdocs\ICF\interClub\framework\db\ar\CActiveRecord.php(2309): CDbSchema->getTable('RONDA')
+#5 C:\xampp\htdocs\ICF\interClub\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Ronda))
+#6 C:\xampp\htdocs\ICF\interClub\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('Ronda')
+#7 C:\xampp\htdocs\ICF\interClub\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#8 C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php(65): CActiveRecord->__construct()
+#9 C:\xampp\htdocs\ICF\interClub\framework\web\actions\CInlineAction.php(49): RondaController->actionCreate()
+#10 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('ronda/create')
+#20 C:\xampp\htdocs\ICF\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\ICF\interClub\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/ICF/interClub/ronda/create
+HTTP_REFERER=http://localhost/ICF/interClub/Ronda/index
+---
+2013/06/05 12:44:20 [error] [php] include(TorneoController.php): failed to open stream: No such file or directory (C:\xampp\htdocs\ICF\interClub\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php(79): spl_autoload_call()
+#1 C:\xampp\htdocs\ICF\interClub\framework\web\actions\CInlineAction.php(49): RondaController->actionCreate()
+#2 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(133): RondaController->runAction()
+#4 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CInlineFilter.php(58): RondaController->filterAccessControl()
+#7 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(265): RondaController->runActionWithFilters()
+#10 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(282): RondaController->run()
+#11 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ICF\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ICF\interClub\index.php(13): CWebApplication->run()
+REQUEST_URI=/ICF/interClub/ronda/create
+in C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php (79)
+in C:\xampp\htdocs\ICF\interClub\index.php (13)
+2013/06/05 12:47:18 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.PK_RONDA) violated
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into ronda values(11,1,'A',1).
+in C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php (83)
+in C:\xampp\htdocs\ICF\interClub\index.php (13)
+2013/06/05 12:47:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.PK_RONDA) violated
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: insert into ronda values(11,1,'A',1)' in C:\xampp\htdocs\ICF\interClub\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\ICF\interClub\framework\db\CDbCommand.php(376): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php(83): CDbCommand->query()
+#2 C:\xampp\htdocs\ICF\interClub\framework\web\actions\CInlineAction.php(49): RondaController->actionCreate()
+#3 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('ronda/create')
+#13 C:\xampp\htdocs\ICF\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\ICF\interClub\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/ICF/interClub/ronda/create
+HTTP_REFERER=http://localhost/ICF/interClub/ronda/create
+---
+2013/06/05 12:59:29 [error] [exception.CException] exception 'CException' with message 'Propiedad "Torneo"."atributtes" no se encuentra definida.' in C:\xampp\htdocs\ICF\interClub\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\ICF\interClub\framework\db\ar\CActiveRecord.php(143): CComponent->__get('atributtes')
+#1 C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php(81): CActiveRecord->__get('atributtes')
+#2 C:\xampp\htdocs\ICF\interClub\framework\web\actions\CInlineAction.php(49): RondaController->actionCreate()
+#3 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('ronda/create')
+#13 C:\xampp\htdocs\ICF\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\ICF\interClub\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/ICF/interClub/ronda/create
+HTTP_REFERER=http://localhost/ICF/interClub/ronda/create
+---
+2013/06/05 13:01:27 [error] [exception.CException] exception 'CException' with message 'RondaController y sus behaviors no tienen un método o closure llamado "model".' in C:\xampp\htdocs\ICF\interClub\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php(80): CComponent->__call('model', Array)
+#1 C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php(80): RondaController->model()
+#2 C:\xampp\htdocs\ICF\interClub\framework\web\actions\CInlineAction.php(49): RondaController->actionCreate()
+#3 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('ronda/create')
+#13 C:\xampp\htdocs\ICF\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\ICF\interClub\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/ICF/interClub/ronda/create
+HTTP_REFERER=http://localhost/ICF/interClub/ronda/create
+---
+2013/06/05 13:02:17 [error] [php] Undefined index: Ronda (C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php:80)
+Stack trace:
+#0 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(133): RondaController->runAction()
+#1 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CInlineFilter.php(58): RondaController->filterAccessControl()
+#4 C:\xampp\htdocs\ICF\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\ICF\interClub\framework\web\CController.php(265): RondaController->runActionWithFilters()
+#7 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(282): RondaController->run()
+#8 C:\xampp\htdocs\ICF\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\ICF\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\ICF\interClub\index.php(13): CWebApplication->run()
+REQUEST_URI=/ICF/interClub/ronda/create
+in C:\xampp\htdocs\ICF\interClub\protected\controllers\RondaController.php (80)
+in C:\xampp\htdocs\ICF\interClub\index.php (13)
