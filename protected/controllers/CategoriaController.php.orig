@@ -69,18 +69,12 @@ class CategoriaController extends Controller
 
 		if(isset($_POST['Categoria']))
 		{
-<<<<<<< HEAD
+
                     $datos=$_POST['Categoria'];
                     $parametros=$datos['K_IDCATEGORIA'].", '".$datos['N_CATEGORIA']."'";
 			if(Yii::app()->db->createCommand("insert into categoria values(".$parametros.")")->query())
 				$this->redirect(array('view','id'=>$datos['N_IDCATEGORIA']));
-=======
-                    
-                 $datos=$_POST['Categoria'];
-                    $parametros=$datos['K_IDCATEGORIA'].", '".$datos['N_CATEGORIA']."'";
-            if(Yii::app()->db->createCommand("insert into categoria values(".$parametros.")")->query());
-   
->>>>>>> de69cb280a904d5b7c99e5502ad4753d3b4a033a
+
 		}
 
 		$this->render('create',array(

@@ -67,29 +67,54 @@ class TorneoController extends Controller
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Torneo']))
-		{               
-                    $datos=$_POST['Torneo'];  		
-          if($datos['F_INICIO']<=$datos['F_FINAL']){
-		 $date = time();
-		 $fecha = date("d m Y",$date) ;
-		 if($datos['F_FINAL']>=$fecha){
-                      if($datos['F_INICIO']>$fecha){
-                        $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."', 'A' ,".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
- if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());  
+		{   
+                    $datos=$_POST['Torneo'];  
+                    $fecha_inicio=$this->actionFecha($datos['F_INICIO']);
+                    $fecha_final=$this->actionFecha($datos['F_FINAL']);
+             
+                if($fecha_inicio<=$fecha_final){
+		
+                  $date = time();
+                $fecha = date("d m Y",$date) ;
+                $fecha_auxiliar=str_replace(' ','-',$fecha);
+                $fecha_dia=strtotime($fecha_auxiliar);
+                 $estado =$datos['I_ESTADOTORNEO'];
+ 		 if($fecha_final>=$fecha_dia){
+                      if($fecha_inicio>$fecha_dia){
+                          if($estado=='A'){
+                        $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."','".$datos['I_ESTADOTORNEO']."',".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
+                          Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query(); 
+                            $this->redirect(array('view','id'=>$model->K_IDTORNEO));}
+                        else{
+      Yii::app()->clientScript->registerScript(1, 'alert("El estado Abierto(A) no corresponde al intervalo de la fecha")');                          
+                            }
                       }
                       else{
+                            if($estado=='J'){
                            $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."', 'J' ,".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
- if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());  
+ Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query(); 
+            $this->redirect(array('view','id'=>$model->K_IDTORNEO));
+                            }
+                            else{
+      Yii::app()->clientScript->registerScript(1, 'alert("El estado en Juego(J) no corresponde al intervalo de la fecha")');                          
+                            }
                       } 
 
 		} 
 		else {
+                     if($estado=='F'){
         $parametros=$datos['K_IDTORNEO'].",'".$datos['F_INICIO']."', '".$datos['F_FINAL']."','F',".$datos['K_IDCATEGORIA'].",".$datos['Q_PARTICIPANTES'];
- if(Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query());
- 	  } 
+ Yii::app()->db->createCommand("insert into torneo values(".$parametros.")")->query();
+  $this->redirect(array('view','id'=>$model->K_IDTORNEO));
+ 	  }
+             else{
+      Yii::app()->clientScript->registerScript(1, 'alert("El estado torneo Finalizado(F) no corresponde al intervalo de la fecha")');                          
+                            }
+                }
 				}					  
                         else {
-                      echo '<script>alert("La fecha final debe ser menor a la inicial")</script>';  }        
+	Yii::app()->clientScript->registerScript(1, 'alert("La fecha final debe ser mayor a la inicial")');
+                    }        
                 }
 		$this->render('create',array(
 			'model'=>$model,
@@ -97,33 +122,142 @@ class TorneoController extends Controller
 	
         }
 
-	/**
+	/*
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
+        
+        public function actionFecha($fecha){
+            $valoresfecha = explode ("/",$fecha);  
+                $diafecha   = $valoresfecha[0];  
+                $mesfecha  = $valoresfecha[1];  
+                $anyofecha   = "20".$valoresfecha[2]; 
+                  $listofecha=$diafecha."-".$mesfecha."-".$anyofecha;
+                 $fecha_final=strtotime($listofecha);
+                 return $fecha_final;
+        }
+        
 	public function actionUpdate($id)
 	{
+	
 		$model=$this->loadModel($id);
-
+                $estado=$model->I_ESTADOTORNEO;
+                $fechai=$model->F_INICIO;
+                $fechaf=$model->F_FINAL;
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
+		   
 		if(isset($_POST['Torneo']))
 		{  
-                       $model->attributes=$_POST['Torneo'];
-            if($model->attributes['F_INICIO']<=$model->attributes['F_FINAL']){
+                    $model->attributes=$_POST['Torneo'];
+                 $fecha_inicio=$this->actionFecha($model->attributes['F_INICIO']);
+                $fecha_final=$this->actionFecha($model->attributes['F_FINAL']);
+                $date = time();
+                $fecha = date("d m Y",$date) ;
+                $fecha_auxiliar=str_replace(' ','-',$fecha);
+                $fecha_dia=strtotime($fecha_auxiliar);
+                     if($estado=='A'){ 
+                     if($model->attributes['I_ESTADOTORNEO']=='A'){
+                        if($fecha_inicio>$fecha_dia){
+                    
+  Yii::app()->clientScript->registerScript(1, 'alert("si entrol")');
+                     
+	    if($fecha_inicio<=$fecha_final){
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->K_IDTORNEO));
             }
-             else {
-                      echo '<script>alert("La fecha final debe ser menor a la inicial")</script>';  }        
-		
-		}
-
-		$this->render('update',array(
+                     }
+                     else {
+                          $model->I_ESTADOTORNEO='A';
+	 Yii::app()->clientScript->registerScript(1, 'alert("La fecha inicial debe ser mayor a la actual")');
+                } 
+                 }
+              
+                 else if($model->attributes['I_ESTADOTORNEO']=='J'){
+                        if($fechai==$model->attributes['F_INICIO']){
+                     if($fecha_inicio<$fecha_dia){
+                 if($fecha_inicio<=$fecha_final){
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->K_IDTORNEO));
+                        }
+                  }
+                  else{
+                       $model->I_ESTADOTORNEO='A';
+          Yii::app()->clientScript->registerScript(1, 'alert("El torneo todavia no puede estar en juego(j) la fecha de inicio es mayor a la fecha actual")');
+                  }
+                     }
+                     
+                     else {
+                          $model->I_ESTADOTORNEO='A';
+	 Yii::app()->clientScript->registerScript(1, 'alert("La fecha inicial no puede cambiar ")');
+                } 
+                 }
+                 
+                 else if($model->attributes['I_ESTADOTORNEO']=='F'){
+                      if(($fechai==$model->attributes['F_INICIO'])&&($fechaf==$model->attributes['F_FINAL'])){
+                          if($fecha_final<$fecha_dia){
+               
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->K_IDTORNEO));
+                        
+                  }
+                  else{
+                       $model->I_ESTADOTORNEO='A';
+          Yii::app()->clientScript->registerScript(1, 'alert("El torneo todavia no puede estar finalizado(F) la fecha final es mayor a la fecha actual")');
+                  } 
+               }     
+                 }
+                  else{
+                       $model->I_ESTADOTORNEO='A';
+                      Yii::app()->clientScript->registerScript(1, 'alert("Solo hay 3 estados disponibles (F),(A)y (J)")');   
+                 }
+                    }   
+        
+                                
+                 else if($estado=='J'){                   
+             if($model->attributes['I_ESTADOTORNEO']!='F'){
+                 
+                   if($model->attributes['I_ESTADOTORNEO']=='J'){
+                      if(($fecha_final>$fecha_dia)&&($fecha_final>$fecha_inicio)){
+                             if($model->save())
+				$this->redirect(array('view','id'=>$model->K_IDTORNEO));
+                      }
+                       
+                   }
+                     else{
+                           $model->I_ESTADOTORNEO='J';
+                     Yii::app()->clientScript->registerScript(1, 'alert("Este torneo solo se puede actualizar a finalizado")');
+                     } 
+                     
+             }
+                 else{
+                       if($fechaf==$fecha_final){
+                          if($fecha_final<$fecha_dia){
+                                 if($model->save())
+				$this->redirect(array('view','id'=>$model->K_IDTORNEO));
+                                     }
+                     else{
+                  $model->I_ESTADOTORNEO='J';
+                        Yii::app()->clientScript->registerScript(1, 'alert("El torneo no a terminado la fecha final es mayor a la actual")');
+                       }
+                       }
+                       else{
+               $model->I_ESTADOTORNEO='J';
+          Yii::app()->clientScript->registerScript(1, 'alert("Si va seleccionar estado finalizado la fecha no puede ser modificada")');       
+                       }
+                            
+                 }                
+                        
+                 }         
+                
+                }
+                $this->render('update',array(
 			'model'=>$model,
 		));
+
+		
 	}
 
 	/**

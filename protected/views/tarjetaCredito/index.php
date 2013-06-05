@@ -3,16 +3,16 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Tarjeta Creditos',
+	'Tarjeta Credito',
 );
 
 $this->menu=array(
-	array('label'=>'Create TarjetaCredito', 'url'=>array('create')),
-	array('label'=>'Manage TarjetaCredito', 'url'=>array('admin')),
+	array('label'=>'Crear Tarjeta Credito', 'url'=>array('create')),
+	array('label'=>'ADministrar Tarjeta Credito', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Tarjeta Creditos</h1>
+<h1>Tarjeta Credito</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

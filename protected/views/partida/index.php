@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Partida', 'url'=>array('create')),
-	array('label'=>'Manage Partida', 'url'=>array('admin')),
+	array('label'=>'Crear Partida', 'url'=>array('create')),
+	array('label'=>'Administrar Partida', 'url'=>array('admin')),
 );
 ?>
 

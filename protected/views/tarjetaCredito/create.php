@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List TarjetaCredito', 'url'=>array('index')),
-	array('label'=>'Manage TarjetaCredito', 'url'=>array('admin')),
+	array('label'=>'Lista de Tarjetas de Credito', 'url'=>array('index')),
+	array('label'=>'Administrar Tarjetas de Credito', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create TarjetaCredito</h1>
+<h1>Crear Tarjeta Credito</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

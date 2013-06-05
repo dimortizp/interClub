@@ -70,13 +70,10 @@ class LugarController extends Controller
 		if(isset($_POST['Lugar']))
 		{
                      $datos=$_POST['Lugar'];                    
- $parametros=$datos['K_IDLUGAR'].",'".$datos['O_DIRECCION']."', '".$datos['N_SITIO']."'";
-         
-  if(Yii::app()->db->createCommand("insert into lugar values(".$parametros.")")->query());
-    			
-			/*$model->attributes=$_POST['Lugar'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->K_IDLUGAR));*/
+                     $parametros=$datos['K_IDLUGAR'].",'".$datos['O_DIRECCION']."', '".$datos['N_SITIO']."'";         
+                     if(Yii::app()->db->createCommand("insert into lugar values(".$parametros.")")->query());
+    			$this->redirect(array('view','id'=>$model->K_IDLUGAR));
+			
 		}
 
 		$this->render('create',array(

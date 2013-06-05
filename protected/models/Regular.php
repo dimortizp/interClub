@@ -38,6 +38,7 @@ class Regular extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
+                    array('K_CEDULA', 'required'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('K_CEDULA', 'safe', 'on'=>'search'),
@@ -53,7 +54,7 @@ class Regular extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'kCEDULA' => array(self::BELONGS_TO, 'SOCIO', 'K_CEDULA'),
-			'tARJETACREDITO' => array(self::HAS_ONE, 'TARJETACREDITO', 'K_NUMEROTARJETA'),
+			'tARJETACREDITO' => array(self::HAS_ONE, 'TARJETACREDITO', 'K_CEDULA'),
 		);
 	}
 

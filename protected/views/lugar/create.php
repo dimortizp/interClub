@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Lugar', 'url'=>array('index')),
-	array('label'=>'Manage Lugar', 'url'=>array('admin')),
+	array('label'=>'Ver Lugares', 'url'=>array('index')),
+	array('label'=>'Administrar Lugares', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Lugar</h1>
+<h1>Crear Lugar</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

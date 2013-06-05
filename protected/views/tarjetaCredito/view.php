@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List TarjetaCredito', 'url'=>array('index')),
-	array('label'=>'Create TarjetaCredito', 'url'=>array('create')),
-	array('label'=>'Update TarjetaCredito', 'url'=>array('update', 'id'=>$model->K_NUMEROTARJETA)),
-	array('label'=>'Delete TarjetaCredito', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_NUMEROTARJETA),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage TarjetaCredito', 'url'=>array('admin')),
+	array('label'=>'Lista TarjetaCredito', 'url'=>array('index')),
+	array('label'=>'Crear TarjetaCredito', 'url'=>array('create')),
+	array('label'=>'Actualizar TarjetaCredito', 'url'=>array('update', 'id'=>$model->K_NUMEROTARJETA)),
+	array('label'=>'Eliminar TarjetaCredito', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_NUMEROTARJETA),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
+	array('label'=>'Administrar TarjetaCredito', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View TarjetaCredito #<?php echo $model->K_NUMEROTARJETA; ?></h1>
+<h1>Tarjeta de credito # <?php echo $model->K_NUMEROTARJETA; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

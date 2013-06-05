@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'List Socio', 'url'=>array('index')),
 	array('label'=>'Create Socio', 'url'=>array('create')),
 	array('label'=>'Update Socio', 'url'=>array('update', 'id'=>$model->K_CEDULA)),
-	array('label'=>'Delete Socio', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_CEDULA),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Delete Socio', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_CEDULA),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
 	array('label'=>'Manage Socio', 'url'=>array('admin')),
 );
 ?>

@@ -11,10 +11,16 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
-
+        
+        <div class="row">
+		<?php echo $form->labelEx($model,'K_CEDULA'); ?>
+		<?php echo $form->textField($model,'K_CEDULA'); ?>
+		<?php echo $form->error($model,'K_CEDULA'); ?>
+	</div>
+        
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

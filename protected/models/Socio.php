@@ -46,7 +46,7 @@ class Socio extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('F_AFILIACION, N_NACIONALIDAD, I_TIPOSOCIO, K_CATEGORIA', 'required'),
+			array('K_CEDULA,F_AFILIACION, N_NACIONALIDAD, I_TIPOSOCIO, K_CATEGORIA', 'required'),
 			array('K_CATEGORIA', 'numerical', 'integerOnly'=>true),
 			array('N_NACIONALIDAD', 'length', 'max'=>20),
 			array('I_TIPOSOCIO', 'length', 'max'=>1),
@@ -79,7 +79,7 @@ class Socio extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'K_CEDULA' => 'K Cedula',
+			'K_CEDULA' => 'Cedula',
 			'F_AFILIACION' => 'F Afiliacion',
 			'N_NACIONALIDAD' => 'N Nacionalidad',
 			'I_TIPOSOCIO' => 'I Tiposocio',

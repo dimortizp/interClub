@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Socio', 'url'=>array('create')),
-	array('label'=>'Manage Socio', 'url'=>array('admin')),
+	array('label'=>'Crear Socio', 'url'=>array('create')),
+	array('label'=>'Administrar Socio', 'url'=>array('admin')),
 );
 ?>
 
