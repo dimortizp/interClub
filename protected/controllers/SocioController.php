@@ -71,7 +71,8 @@ class SocioController extends Controller
 		{
 			$model->attributes=$_POST['Socio'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->K_CEDULA));
+				//$this->redirect(array('view','id'=>$model->K_CEDULA));
+				$this->redirect(array('index'));
 		}
 
 		$this->render('create',array(

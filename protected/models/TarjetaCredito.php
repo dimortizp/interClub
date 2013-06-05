@@ -43,7 +43,7 @@ class TarjetaCredito extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('O_CODIGOVERIFICACION, O_CLAVETARJETA, N_NOMBRETARJETA, F_VENCIMIENTO, I_TIPOTARJETA, K_CEDULA', 'required'),
+			array('K_NUMEROTARJETA,O_CODIGOVERIFICACION, O_CLAVETARJETA, N_NOMBRETARJETA, F_VENCIMIENTO, I_TIPOTARJETA, K_CEDULA', 'required'),
 			array('O_CODIGOVERIFICACION, K_CEDULA', 'numerical', 'integerOnly'=>true),
 			array('O_CLAVETARJETA', 'length', 'max'=>32),
 			array('N_NOMBRETARJETA', 'length', 'max'=>20),
