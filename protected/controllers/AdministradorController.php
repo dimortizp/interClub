@@ -31,6 +31,9 @@ class AdministradorController extends Controller
 				'actions'=>array('*'),
 				'users'=>array('@'),
 			),
+			array('deny',  // deny all users
+				'users'=>array('*'),
+			),
 		);
 	}
 
