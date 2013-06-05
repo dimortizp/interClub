@@ -58,16 +58,35 @@ class RondaController extends Controller
 
 		if(isset($_POST['Ronda']))
 		{                    
+		
+		
                     $datos=$_POST['Ronda']; 
 					$aux1 = (string)$datos['K_IDTORNEO'];	
 					$aux2 = (string)$datos['K_IDRONDA'];						
                     $id=$aux1.$aux2;
 					$res=(int)$id;
+						
+					$modelo=Torneo::model()->findByPk($datos['K_IDTORNEO']);
+				
+					$control=0;	
+					
+					while(($modelo->Q_PARTICIPANTES)>1){
+					($modelo->Q_PARTICIPANTES)/2;
+					$control++;
+					}
+					
+					if($datos['Q_NUMERORONDA']<=$control){
 			$parametros=$res.",".$datos['Q_NUMERORONDA'].",'".$datos['I_ESTADORONDA']."',".$datos['K_IDTORNEO'];
           if(Yii::app()->db->createCommand("insert into ronda values(".$parametros.")")->query());
-			/*$model->attributes=$_POST['Ronda'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->K_IDRONDA));*/
+				$this->redirect(array('view','id'=>$model->K_IDRONDA));}
+				else {
+				if($control==0){
+		 Yii::app()->clientScript->registerScript(1, 'alert("Solo hay un participante")');
+				}
+				else{
+				 Yii::app()->clientScript->registerScript(1, 'alert("Hay un numero maximo de rondas para el torneo seleccionado")');	
+				}
+				}
 		}
 
 		$this->render('create',array(
