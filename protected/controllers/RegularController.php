@@ -60,7 +60,9 @@ class RegularController extends Controller
 		{
 			$model->attributes=$_POST['Regular'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->K_CEDULA));
+				// $this->redirect(array('view','id'=>$model->K_CEDULA)); asi estaba antes
+				 $this->redirect(array('tarjetacredito/create','id'=>$model->K_CEDULA)); 
+                            
 		}
 
 		$this->render('create',array(

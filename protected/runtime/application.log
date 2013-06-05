@@ -6501,3 +6501,229 @@ Stack trace:
 REQUEST_URI=/interClubProyect/rEGULAR/admin
 HTTP_REFERER=http://localhost/interClubProyect/REGULAR/create/
 ---
+REQUEST_URI=/interClub/regular/create
+HTTP_REFERER=http://localhost/interClub/regular/create
+---
+2013/06/05 07:12:58 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.UQ_USUARIO_N_CORREO) violated
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into USUARIO values(3, 'correo@algo.com', 'maria', 'rico', 'S', '12345').
+in C:\xampp\htdocs\interClub\protected\controllers\UsuarioController.php (76)
+in C:\xampp\htdocs\interClub\index.php (13)
+2013/06/05 07:19:53 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 2291 OCIStmtExecute: ORA-02291: integrity constraint (AJEDREZ.FK_REGULAR_SOCIO) violated - parent key not found
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: INSERT INTO "REGULAR" ("K_CEDULA") VALUES (:yp0) RETURNING "K_CEDULA" INTO :RETURN_ID.
+in C:\xampp\htdocs\interClub\protected\controllers\RegularController.php (73)
+in C:\xampp\htdocs\interClub\index.php (13)
+2013/06/05 07:19:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 2291 OCIStmtExecute: ORA-02291: integrity constraint (AJEDREZ.FK_REGULAR_SOCIO) violated - parent key not found
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: INSERT INTO "REGULAR" ("K_CEDULA") VALUES (:yp0) RETURNING "K_CEDULA" INTO :RETURN_ID' in C:\xampp\htdocs\interClub\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\interClub\protected\controllers\RegularController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): RegularController->actionCreate()
+#4 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('regular/create')
+#14 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/interClub/regular/create
+HTTP_REFERER=http://localhost/interClub/regular/create
+---
+2013/06/05 07:20:11 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 2291 OCIStmtExecute: ORA-02291: integrity constraint (AJEDREZ.FK_REGULAR_SOCIO) violated - parent key not found
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: INSERT INTO "REGULAR" ("K_CEDULA") VALUES (:yp0) RETURNING "K_CEDULA" INTO :RETURN_ID.
+in C:\xampp\htdocs\interClub\protected\controllers\RegularController.php (73)
+in C:\xampp\htdocs\interClub\index.php (13)
+2013/06/05 07:20:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 2291 OCIStmtExecute: ORA-02291: integrity constraint (AJEDREZ.FK_REGULAR_SOCIO) violated - parent key not found
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: INSERT INTO "REGULAR" ("K_CEDULA") VALUES (:yp0) RETURNING "K_CEDULA" INTO :RETURN_ID' in C:\xampp\htdocs\interClub\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\interClub\protected\controllers\RegularController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): RegularController->actionCreate()
+#4 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('regular/create')
+#14 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/interClub/regular/create
+HTTP_REFERER=http://localhost/interClub/regular/create
+---
+2013/06/05 07:22:03 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 2291 OCIStmtExecute: ORA-02291: integrity constraint (AJEDREZ.FK_REGULAR_SOCIO) violated - parent key not found
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: INSERT INTO "REGULAR" ("K_CEDULA") VALUES (:yp0) RETURNING "K_CEDULA" INTO :RETURN_ID.
+in C:\xampp\htdocs\interClub\protected\controllers\RegularController.php (73)
+in C:\xampp\htdocs\interClub\index.php (13)
+2013/06/05 07:22:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 2291 OCIStmtExecute: ORA-02291: integrity constraint (AJEDREZ.FK_REGULAR_SOCIO) violated - parent key not found
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: INSERT INTO "REGULAR" ("K_CEDULA") VALUES (:yp0) RETURNING "K_CEDULA" INTO :RETURN_ID' in C:\xampp\htdocs\interClub\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\interClub\protected\controllers\RegularController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): RegularController->actionCreate()
+#4 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('regular/create')
+#14 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/interClub/regular/create
+HTTP_REFERER=http://localhost/interClub/regular/create
+---
+2013/06/05 07:26:01 [error] [php] Use of undefined constant K_CEDULA - assumed 'K_CEDULA' (C:\xampp\htdocs\interClub\protected\views\tarjetaCredito\_form.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\interClub\framework\web\CController.php(869): TarjetaCreditoController->renderFile()
+#1 C:\xampp\htdocs\interClub\protected\views\tarjetaCredito\create.php(18): TarjetaCreditoController->renderPartial()
+#2 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(95): TarjetaCreditoController->renderInternal()
+#4 C:\xampp\htdocs\interClub\framework\web\CController.php(869): TarjetaCreditoController->renderFile()
+#5 C:\xampp\htdocs\interClub\framework\web\CController.php(782): TarjetaCreditoController->renderPartial()
+#6 C:\xampp\htdocs\interClub\protected\controllers\TarjetaCreditoController.php(79): TarjetaCreditoController->render()
+#7 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): TarjetaCreditoController->actionCreate()
+#8 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): TarjetaCreditoController->runAction()
+#10 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): TarjetaCreditoController->filterAccessControl()
+#13 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\interClub\framework\web\CController.php(265): TarjetaCreditoController->runActionWithFilters()
+#16 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): TarjetaCreditoController->run()
+#17 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\interClub\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClub/tarjetaCredito/create
+in C:\xampp\htdocs\interClub\protected\views\tarjetaCredito\_form.php (17)
+in C:\xampp\htdocs\interClub\protected\views\tarjetaCredito\create.php (18)
+in C:\xampp\htdocs\interClub\protected\controllers\TarjetaCreditoController.php (79)
+2013/06/05 07:31:50 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.PK_REGULAR) violated
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: INSERT INTO "REGULAR" ("K_CEDULA") VALUES (:yp0) RETURNING "K_CEDULA" INTO :RETURN_ID.
+in C:\xampp\htdocs\interClub\protected\controllers\RegularController.php (73)
+in C:\xampp\htdocs\interClub\index.php (13)
+2013/06/05 07:31:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.PK_REGULAR) violated
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: INSERT INTO "REGULAR" ("K_CEDULA") VALUES (:yp0) RETURNING "K_CEDULA" INTO :RETURN_ID' in C:\xampp\htdocs\interClub\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\interClub\protected\controllers\RegularController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): RegularController->actionCreate()
+#4 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('regular/create')
+#14 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/interClub/regular/create
+HTTP_REFERER=http://localhost/interClub/regular/create
+---
+2013/06/05 07:32:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\interClub\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\interClub\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('regular/delete')
+#9 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interClub/regular/delete/5
+HTTP_REFERER=http://localhost/interClub/regular/5
+---
+2013/06/05 07:37:31 [error] [exception.CException] exception 'CException' with message 'Propiedad "TarjetaCredito"."" no se encuentra definida.' in C:\xampp\htdocs\interClub\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(143): CComponent->__get('')
+#1 C:\xampp\htdocs\interClub\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('')
+#2 C:\xampp\htdocs\interClub\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(TarjetaCredito), NULL)
+#3 C:\xampp\htdocs\interClub\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(TarjetaCredito), NULL, Array)
+#4 C:\xampp\htdocs\interClub\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(TarjetaCredito), NULL, Array)
+#5 C:\xampp\htdocs\interClub\protected\views\tarjetaCredito\_form.php(66): CActiveForm->textField(Object(TarjetaCredito), NULL)
+#6 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\interClub\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\interClub\protected\views\tarjetaCredito\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\interClub\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\interClub\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\interClub\protected\controllers\TarjetaCreditoController.php(79): CController->render('create', Array)
+#15 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): TarjetaCreditoController->actionCreate()
+#16 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('tarjetaCredito/...')
+#26 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/interClub/tarjetaCredito/create
+HTTP_REFERER=http://localhost/interClub/TarjetaCredito/index
+---
+2013/06/05 07:39:10 [error] [exception.CException] exception 'CException' with message 'Propiedad "TarjetaCredito"."" no se encuentra definida.' in C:\xampp\htdocs\interClub\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(143): CComponent->__get('')
+#1 C:\xampp\htdocs\interClub\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('')
+#2 C:\xampp\htdocs\interClub\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(TarjetaCredito), NULL)
+#3 C:\xampp\htdocs\interClub\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(TarjetaCredito), NULL, Array)
+#4 C:\xampp\htdocs\interClub\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(TarjetaCredito), NULL, Array)
+#5 C:\xampp\htdocs\interClub\protected\views\tarjetaCredito\_form.php(66): CActiveForm->textField(Object(TarjetaCredito), NULL)
+#6 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\interClub\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\interClub\protected\views\tarjetaCredito\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\interClub\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\interClub\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\interClub\protected\controllers\TarjetaCreditoController.php(79): CController->render('create', Array)
+#15 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): TarjetaCreditoController->actionCreate()
+#16 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('tarjetaCredito/...')
+#26 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/interClub/tarjetaCredito/create
+HTTP_REFERER=http://localhost/interClub/TarjetaCredito/index
+---

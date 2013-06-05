@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Lista TarjetaCredito', 'url'=>array('index')),
-	array('label'=>'Crear TarjetaCredito', 'url'=>array('create')),
+	array('label'=>'Crear TarjetaCredito', 'url'=>array('create', 'id'=>$model->K_CEDULA)),
 	array('label'=>'Actualizar TarjetaCredito', 'url'=>array('update', 'id'=>$model->K_NUMEROTARJETA)),
 	array('label'=>'Eliminar TarjetaCredito', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->K_NUMEROTARJETA),'confirm'=>'¿Esta seguro que desea eliminar este elemento?')),
 	array('label'=>'Administrar TarjetaCredito', 'url'=>array('admin')),
