@@ -62,12 +62,11 @@ class UsuarioController extends Controller
 	 */
 	public function actionCreate()
 	{
-            
+            if(Yii::app()->user->getState("rol")=="Administrador"){
 		$model=new Usuario;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-
 		if(isset($_POST['Usuario']))
 		{
                     try{
@@ -90,6 +89,9 @@ class UsuarioController extends Controller
 		$this->render('create',array(
 			'model'=>$model,
 		));
+            }else{
+                echo "ERROR: Su rol de usuario '".Yii::app()->user->getState("rol")."' No le permite realizar esta accion";
+            }
 	}
 
 	/**

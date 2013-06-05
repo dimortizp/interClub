@@ -6,7 +6,9 @@
  * data can identity the user.
  */
 class UserIdentity extends CUserIdentity {
-private $_id;
+
+    private $_id;
+
     /**
      * Authenticates a user.
      * The example implementation makes sure if the username and password
@@ -29,35 +31,40 @@ private $_id;
         return !$this->errorCode;
     }
 
-    public function getId()
-    {
+    public function getId() {
         return "adsfa";
     }
-    public function getUserType(){
+
+    public function getUserType() {
         $usuarios = Usuario::model()->findByPk($this->username);
-        $rol=$usuarios->I_ROL;
+        $rol = $usuarios->I_ROL;
         $rolVerificado;
-        switch ($rol){
+        switch ($rol) {
             case "A":
                 $admin = Administrador::model()->findByPk($this->username);
-                if(count($admin)==1){
-                    $rolVerificado="Administrador";
-                }else{
-                    $rolVerificado="";
+                if (count($admin) == 1) {
+                    $rolVerificado = "Administrador";
+                } else {
+                    $rolVerificado = "";
                 }
                 break;
             case "S":
-                if(Regular::model()->findByPk($this->username)==1)
-                    $rolVerificado="Regular";
-                else if(Cortecia::model()->findByPk($this->username)==1)
-                    $rolVerificado="Cortecia";
-                else
-                    $rolVerificado="";
+                if (Socio::model()->findByPk($this->username) == 1) {
+                    if (Regular::model()->findByPk($this->username) == 1)
+                        $rolVerificado = "Regular";
+                    else if (Cortecia::model()->findByPk($this->username) == 1)
+                        $rolVerificado = "Cortecia";
+                    else
+                        $rolVerificado = "";
+                }else
+                    $rolVerificado = "";
+
                 break;
             default:
-                    $rolVerificado="";
+                $rolVerificado = "";
                 break;
         }
-        $this->setState("rol", $rol);
+        $this->setState("rol", $rolVerificado);
     }
+
 }

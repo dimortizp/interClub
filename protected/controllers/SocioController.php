@@ -58,10 +58,23 @@ class SocioController extends Controller
 
 		if(isset($_POST['Socio']))
 		{
-			$model->attributes=$_POST['Socio'];
-			if($model->save())
-				//$this->redirect(array('view','id'=>$model->K_CEDULA));
-				$this->redirect(array('index'));
+			try{
+			$datos=$_POST['Socio'];
+                        $parametros=$datos['K_CEDULA'].", '".$datos['F_AFILIACION']."'".", '".$datos['N_NACIONALIDAD']."'".", '".$datos['I_TIPOSOCIO']."'".", ".$datos['K_CATEGORIA'];
+			if(Yii::app()->db->createCommand("insert into SOCIO values(".$parametros.")")->query()){
+				if($datos["I_TIPOSOCIO"]=="C"){
+                                    if(Yii::app()->db->createCommand("insert into CORTECIA values(".$datos['K_CEDULA'].")")->query()){
+                                        $this->redirect(array('view','id'=>$model->K_CEDULA));
+                                    }
+                                }else if($datos["I_TIPOSOCIO"]=="R"){
+                                    if(Yii::app()->db->createCommand("insert into REGULAR values(".$datos['K_CEDULA'].")")->query()){
+                                        $this->redirect(array('/TarjetaCredito/create','id'=>$model->K_CEDULA));
+                                    }
+                                }
+                        }
+                    }catch(Exception $ex){
+                        echo($ex->getMessage());   
+                    }
 		}
 
 		$this->render('create',array(
