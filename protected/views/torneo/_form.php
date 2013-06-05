@@ -23,21 +23,26 @@
         
 	<div class="row">
 		<?php echo $form->labelEx($model,'F_INICIO'); ?>
-		<?php echo $form->textField($model,'F_INICIO'); ?><p class="note">Formato DD/MM/AAAA</p>
+		<?php echo $form->textField($model,'F_INICIO'); ?><p class="note">Formato DD/MM/AA</p>
 		<?php echo $form->error($model,'F_INICIO'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'F_FINAL'); ?>
-		<?php echo $form->textField($model,'F_FINAL'); ?><p class="note">Formato DD/MM/AAAA</p>
+		<?php echo $form->textField($model,'F_FINAL'); ?><p class="note">Formato DD/MM/AA</p>
 		<?php echo $form->error($model,'F_FINAL'); ?>
 	</div>
-
+<?php
+                $list["A"]="Abierto";
+                $list["J"]="Jugandose";
+				$list["F"]="Finalizado";
+        ?>
         <div class="row">
 		<?php echo $form->labelEx($model,'I_ESTADOTORNEO'); ?>
-		<?php echo $form->textField($model,'I_ESTADOTORNEO',array('size'=>1,'maxlength'=>1)); ?>
-		<?php echo $form->error($model,'I_ESTADOTORNEO'); ?>
-	</div>
+	<?php echo CHtml::dropDownList('Torneo[I_ESTADOTORNEO]',$model->I_ESTADOTORNEO,$list);?>
+	
+	<?php echo $form->error($model,'I_ESTADOTORNEO'); ?>
+	</div>	
         
 	<div class="row">
 		<?php echo $form->labelEx($model,'K_IDCATEGORIA'); ?>

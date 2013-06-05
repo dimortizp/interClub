@@ -11,7 +11,7 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'List Torneo', 'url'=>array('index')),
 	array('label'=>'Create Torneo', 'url'=>array('create')),
-	array('label'=>'View Torneo', 'url'=>array('view','id'=>$model->K_IDTORNEO),),
+	array('label'=>'View Torneo', 'url'=>array('view','id'=>$model->K_IDTORNEO)),
 	array('label'=>'Manage Torneo', 'url'=>array('admin')),
 );
 ?>
