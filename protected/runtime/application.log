@@ -6048,3 +6048,84 @@ Stack trace:
 REQUEST_URI=/interClub/torneo/admin
 HTTP_REFERER=http://localhost/interClub/Torneo/index
 ---
+2013/06/05 03:30:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Usuario" solicitada.' in C:\xampp\htdocs\IC\interClub\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(270): CController->missingAction('Usuario')
+#1 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(282): CController->run('Usuario')
+#2 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Usuario/in...')
+#3 C:\xampp\htdocs\IC\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\IC\interClub\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/IC/interClub/site/Usuario/index
+---
+2013/06/05 03:30:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Usuario" solicitada.' in C:\xampp\htdocs\IC\interClub\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(270): CController->missingAction('Usuario')
+#1 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(282): CController->run('Usuario')
+#2 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Usuario')
+#3 C:\xampp\htdocs\IC\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\IC\interClub\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/IC/interClub/site/Usuario?=index
+---
+2013/06/05 03:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Usuario" solicitada.' in C:\xampp\htdocs\IC\interClub\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(270): CController->missingAction('Usuario')
+#1 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(282): CController->run('Usuario')
+#2 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Usuario')
+#3 C:\xampp\htdocs\IC\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\IC\interClub\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/IC/interClub/site/Usuario
+---
+2013/06/05 03:31:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\IC\interClub\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\IC\interClub\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\IC\interClub\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\IC\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\IC\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('socio/admin')
+#9 C:\xampp\htdocs\IC\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\IC\interClub\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/IC/interClub/socio/admin
+HTTP_REFERER=http://localhost/IC/interClub/site/login
+---
+2013/06/05 03:32:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\IC\interClub\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\IC\interClub\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\IC\interClub\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\IC\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\IC\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('torneo/admin')
+#9 C:\xampp\htdocs\IC\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\IC\interClub\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/IC/interClub/torneo/admin
+HTTP_REFERER=http://localhost/IC/interClub/torneo/create
+---
+2013/06/05 03:32:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\IC\interClub\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\IC\interClub\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\IC\interClub\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\IC\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\IC\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\IC\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\IC\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('tarjetaCredito/...')
+#9 C:\xampp\htdocs\IC\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\IC\interClub\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/IC/interClub/tarjetaCredito/admin
+HTTP_REFERER=http://localhost/IC/interClub/TarjetaCredito/index
+---

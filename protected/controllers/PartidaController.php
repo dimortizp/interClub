@@ -66,14 +66,13 @@ class PartidaController extends Controller
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-                
-                
 
 		if(isset($_POST['Partida']))
 		{
-			$model->attributes=$_POST['Partida'];
-			if(Partida::model()->insert(array('attributes'=>$_POST['Partida'])))
-				$this->redirect(array('view','id'=>$model->K_IDPARTIDA));
+	$datos=$_POST['Partida'];
+   $parametros=$datos['K_IDPARTIDA'].",'".$datos['I_ESTADOPARTIDA']."','".$datos['F_FECHAHORA']."',".$datos['K_IDLUGAR'].",".$datos['K_CEDULAGANADOR'].",".$datos['K_IDRONDA'];
+      Yii::app()->db->createCommand("insert into partida values(".$parametros.")")->query();
+	  $this->redirect(array('view','id'=>$model->K_IDPARTIDA));
 		}
 
 		$this->render('create',array(
