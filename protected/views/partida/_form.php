@@ -20,10 +20,13 @@
 		<?php echo $form->textField($model,'K_IDPARTIDA'); ?>
 		<?php echo $form->error($model,'K_IDPARTIDA'); ?>
 	</div>
-        
+        <?php
+                $list["F"]="Finalizada";
+                $list["A"]="Abierta";
+        ?>
 	<div class="row">
 		<?php echo $form->labelEx($model,'I_ESTADOPARTIDA'); ?>
-		<?php echo $form->textField($model,'I_ESTADOPARTIDA',array('size'=>1,'maxlength'=>1)); ?>
+			<?php echo CHtml::dropDownList('Partida[I_ESTAPARTIDA]',$model->I_ESTADOPARTIDA,$list); ?>
 		<?php echo $form->error($model,'I_ESTADOPARTIDA'); ?>
 	</div>
 
