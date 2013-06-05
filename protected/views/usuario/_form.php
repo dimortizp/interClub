@@ -39,9 +39,13 @@
 		<?php echo $form->error($model,'N_APELLIDOS'); ?>
 	</div>
 
+        <?php
+                $list["A"]="Administrador";
+                $list["S"]="Socio";
+        ?>
 	<div class="row">
 		<?php echo $form->labelEx($model,'I_ROL'); ?>
-		<?php echo $form->textField($model,'I_ROL',array('size'=>1,'maxlength'=>1)); ?>
+		<?php echo CHtml::dropDownList('Usuario[I_ROL]',$model->I_ROL,$list); ?>
 		<?php echo $form->error($model,'I_ROL'); ?>
 	</div>
 

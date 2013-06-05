@@ -62,6 +62,7 @@ class UsuarioController extends Controller
 	 */
 	public function actionCreate()
 	{
+            
 		$model=new Usuario;
 
 		// Uncomment the following line if AJAX validation is needed
@@ -69,10 +70,21 @@ class UsuarioController extends Controller
 
 		if(isset($_POST['Usuario']))
 		{
+                    try{
 			$datos=$_POST['Usuario'];
-                    $parametros=$datos['K_CEDULA'].", '".$datos['N_CORREO']."'".", '".$datos['N_NOMBRES']."'".", '".$datos['N_APELLIDOS']."'".", '".$datos['I_ROL']."'".", '".$datos['O_PASSWORD']."'";
-			if(Yii::app()->db->createCommand("insert into USUARIO values(".$parametros.")")->query())
-				$this->redirect(array('view','id'=>$datos['K_CEDULA']));
+                        $parametros=$datos['K_CEDULA'].", '".$datos['N_CORREO']."'".", '".$datos['N_NOMBRES']."'".", '".$datos['N_APELLIDOS']."'".", '".$datos['I_ROL']."'".", '".$datos['O_PASSWORD']."'";
+			if(Yii::app()->db->createCommand("insert into USUARIO values(".$parametros.")")->query()){
+				if($datos["I_ROL"]=="A"){
+                                    if(Yii::app()->db->createCommand("insert into ADMINISTRADOR values(".$datos['K_CEDULA'].")")->query()){
+                                        $this->redirect(array('view','id'=>$model->K_CEDULA));
+                                    }
+                                }else if($datos["I_ROL"]=="S"){
+                                    $this->redirect(array('/Socio/create','id'=>$model->K_CEDULA));
+                                }
+                        }
+                    }catch(Exception $ex){
+                        echo($ex->getMessage());   
+                    }
 		}
 
 		$this->render('create',array(

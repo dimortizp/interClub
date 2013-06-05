@@ -5410,207 +5410,207 @@ Stack trace:
 #6 C:\xampp\htdocs\interClub\framework\zii\widgets\CListView.php(203): CBaseListView->init()
 #7 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(147): CListView->init()
 #8 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
-#9 C:\xampp\htdocs\interClub\protected\views\ronda\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
-#10 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
-#11 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
-#12 C:\xampp\htdocs\interClub\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
-#13 C:\xampp\htdocs\interClub\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
-#14 C:\xampp\htdocs\interClub\protected\controllers\RondaController.php(135): CController->render('index', Array)
-#15 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): RondaController->actionIndex()
-#16 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#17 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
-#18 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
-#19 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
-#20 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
-#21 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
-#22 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
-#23 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#24 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('index')
-#25 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('Ronda/index')
-#26 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#27 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
-#28 {main}
-REQUEST_URI=/interClub/Ronda/index
-HTTP_REFERER=http://localhost/interClub/Regular/index
----
-2013/06/04 18:36:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 932 OCIStmtFetch: ORA-00932: inconsistent datatypes: expected CHAR got -
- (ext\pdo_oci\oci_statement.c:469). La sentencia SQL ejecutada fue: WITH USER_SQL AS (SELECT * FROM "RONDA" "t"),
-	PAGINATION AS (SELECT USER_SQL.*, rownum as rowNumId FROM USER_SQL)
-SELECT *
-FROM PAGINATION
- WHERE rownum <= 10.
-in C:\xampp\htdocs\interClub\protected\views\ronda\index.php (20)
-in C:\xampp\htdocs\interClub\protected\controllers\RondaController.php (135)
-in C:\xampp\htdocs\interClub\index.php (13)
-2013/06/04 18:36:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 932 OCIStmtFetch: ORA-00932: inconsistent datatypes: expected CHAR got -
- (ext\pdo_oci\oci_statement.c:469). The SQL statement executed was: WITH USER_SQL AS (SELECT * FROM "RONDA" "t"),
-	PAGINATION AS (SELECT USER_SQL.*, rownum as rowNumId FROM USER_SQL)
-SELECT *
-FROM PAGINATION
- WHERE rownum <= 10' in C:\xampp\htdocs\interClub\framework\db\CDbCommand.php:541
+2013/06/05 04:28:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php:179
 Stack trace:
-#0 C:\xampp\htdocs\interClub\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
-#1 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
-#2 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
-#3 C:\xampp\htdocs\interClub\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
-#4 C:\xampp\htdocs\interClub\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
-#5 C:\xampp\htdocs\interClub\framework\zii\widgets\CBaseListView.php(107): CDataProvider->getData()
-#6 C:\xampp\htdocs\interClub\framework\zii\widgets\CListView.php(203): CBaseListView->init()
-#7 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(147): CListView->init()
-#8 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
-#9 C:\xampp\htdocs\interClub\protected\views\ronda\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
-#10 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
-#11 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
-#12 C:\xampp\htdocs\interClub\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
-#13 C:\xampp\htdocs\interClub\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
-#14 C:\xampp\htdocs\interClub\protected\controllers\RondaController.php(135): CController->render('index', Array)
-#15 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): RondaController->actionIndex()
-#16 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#17 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
-#18 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
-#19 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
-#20 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
-#21 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
-#22 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
-#23 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#24 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('index')
-#25 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('Ronda/index')
-#26 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#27 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
-#28 {main}
-REQUEST_URI=/interClub/Ronda/index
-HTTP_REFERER=http://localhost/interClub/Regular/index
+#0 C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('Categoria/index')
+#9 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interClubProyect/Categoria/index
+HTTP_REFERER=http://localhost/interClubProyect/site/login
 ---
-2013/06/04 18:38:34 [warning] [application] Error al definir unsafe el atributo "K_CEDULA" de "Regular".
-in C:\xampp\htdocs\interClub\protected\controllers\RegularController.php (72)
-in C:\xampp\htdocs\interClub\index.php (13)
-2013/06/04 18:38:34 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 928 OCIStmtExecute: ORA-00928: missing SELECT keyword
- (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: INSERT INTO "REGULAR" () VALUES () RETURNING "K_CEDULA" INTO :RETURN_ID.
-in C:\xampp\htdocs\interClub\protected\controllers\RegularController.php (73)
-in C:\xampp\htdocs\interClub\index.php (13)
-2013/06/04 18:38:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 928 OCIStmtExecute: ORA-00928: missing SELECT keyword
- (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: INSERT INTO "REGULAR" () VALUES () RETURNING "K_CEDULA" INTO :RETURN_ID' in C:\xampp\htdocs\interClub\framework\db\CDbCommand.php:357
+2013/06/05 04:29:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php:179
 Stack trace:
-#0 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
-#1 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
-#2 C:\xampp\htdocs\interClub\protected\controllers\RegularController.php(73): CActiveRecord->save()
-#3 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): RegularController->actionCreate()
-#4 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#5 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
-#6 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
-#7 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
-#8 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
-#9 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
-#10 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
-#11 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#12 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('create')
-#13 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('regular/create')
-#14 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#15 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
-#16 {main}
-REQUEST_URI=/interClub/regular/create
-HTTP_REFERER=http://localhost/interClub/regular/create
+#0 C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('Categoria/index')
+#9 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interClubProyect/Categoria/index
 ---
-2013/06/04 18:39:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 932 OCIStmtFetch: ORA-00932: inconsistent datatypes: expected CHAR got -
- (ext\pdo_oci\oci_statement.c:469). La sentencia SQL ejecutada fue: WITH USER_SQL AS (SELECT * FROM "RONDA" "t"),
-	PAGINATION AS (SELECT USER_SQL.*, rownum as rowNumId FROM USER_SQL)
-SELECT *
-FROM PAGINATION
- WHERE rownum <= 10.
-in C:\xampp\htdocs\interClub\protected\views\ronda\index.php (20)
-in C:\xampp\htdocs\interClub\protected\controllers\RondaController.php (135)
-in C:\xampp\htdocs\interClub\index.php (13)
-2013/06/04 18:39:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 932 OCIStmtFetch: ORA-00932: inconsistent datatypes: expected CHAR got -
- (ext\pdo_oci\oci_statement.c:469). The SQL statement executed was: WITH USER_SQL AS (SELECT * FROM "RONDA" "t"),
-	PAGINATION AS (SELECT USER_SQL.*, rownum as rowNumId FROM USER_SQL)
-SELECT *
-FROM PAGINATION
- WHERE rownum <= 10' in C:\xampp\htdocs\interClub\framework\db\CDbCommand.php:541
+2013/06/05 04:29:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php:179
 Stack trace:
-#0 C:\xampp\htdocs\interClub\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
-#1 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
-#2 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
-#3 C:\xampp\htdocs\interClub\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
-#4 C:\xampp\htdocs\interClub\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
-#5 C:\xampp\htdocs\interClub\framework\zii\widgets\CBaseListView.php(107): CDataProvider->getData()
-#6 C:\xampp\htdocs\interClub\framework\zii\widgets\CListView.php(203): CBaseListView->init()
-#7 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(147): CListView->init()
-#8 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
-#9 C:\xampp\htdocs\interClub\protected\views\ronda\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
-#10 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
-#11 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
-#12 C:\xampp\htdocs\interClub\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
-#13 C:\xampp\htdocs\interClub\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
-#14 C:\xampp\htdocs\interClub\protected\controllers\RondaController.php(135): CController->render('index', Array)
-#15 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): RondaController->actionIndex()
-#16 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#17 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
-#18 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
-#19 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
-#20 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
-#21 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
-#22 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
-#23 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#24 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('index')
-#25 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('Ronda/index')
-#26 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#27 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
-#28 {main}
-REQUEST_URI=/interClub/Ronda/index
-HTTP_REFERER=http://localhost/interClub/regular/create
+#0 C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('Categoria/index')
+#9 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interClubProyect/Categoria/index
 ---
-2013/06/04 18:43:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 932 OCIStmtFetch: ORA-00932: inconsistent datatypes: expected CHAR got -
- (ext\pdo_oci\oci_statement.c:469). La sentencia SQL ejecutada fue: WITH USER_SQL AS (SELECT * FROM "RONDA" "t"),
-	PAGINATION AS (SELECT USER_SQL.*, rownum as rowNumId FROM USER_SQL)
-SELECT *
-FROM PAGINATION
- WHERE rownum <= 10.
-in C:\xampp\htdocs\interClub\protected\views\ronda\index.php (21)
-in C:\xampp\htdocs\interClub\protected\controllers\RondaController.php (135)
-in C:\xampp\htdocs\interClub\index.php (13)
-2013/06/04 18:43:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 932 OCIStmtFetch: ORA-00932: inconsistent datatypes: expected CHAR got -
- (ext\pdo_oci\oci_statement.c:469). The SQL statement executed was: WITH USER_SQL AS (SELECT * FROM "RONDA" "t"),
-	PAGINATION AS (SELECT USER_SQL.*, rownum as rowNumId FROM USER_SQL)
-SELECT *
-FROM PAGINATION
- WHERE rownum <= 10' in C:\xampp\htdocs\interClub\framework\db\CDbCommand.php:541
+2013/06/05 04:34:22 [error] [exception.CException] exception 'CException' with message 'CWebUser y sus behaviors no tienen un método o closure llamado "getUserType".' in C:\xampp\htdocs\interClubProyect\framework\base\CComponent.php:265
 Stack trace:
-#0 C:\xampp\htdocs\interClub\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
-#1 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
-#2 C:\xampp\htdocs\interClub\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
-#3 C:\xampp\htdocs\interClub\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
-#4 C:\xampp\htdocs\interClub\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
-#5 C:\xampp\htdocs\interClub\framework\zii\widgets\CBaseListView.php(107): CDataProvider->getData()
-#6 C:\xampp\htdocs\interClub\framework\zii\widgets\CListView.php(203): CBaseListView->init()
-#7 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(147): CListView->init()
-#8 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
-#9 C:\xampp\htdocs\interClub\protected\views\ronda\index.php(21): CBaseController->widget('zii.widgets.CLi...', Array)
-#10 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
-#11 C:\xampp\htdocs\interClub\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
-#12 C:\xampp\htdocs\interClub\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
-#13 C:\xampp\htdocs\interClub\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
-#14 C:\xampp\htdocs\interClub\protected\controllers\RondaController.php(135): CController->render('index', Array)
-#15 C:\xampp\htdocs\interClub\framework\web\actions\CInlineAction.php(49): RondaController->actionIndex()
-#16 C:\xampp\htdocs\interClub\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#17 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
-#18 C:\xampp\htdocs\interClub\framework\web\filters\CFilter.php(40): CFilterChain->run()
-#19 C:\xampp\htdocs\interClub\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
-#20 C:\xampp\htdocs\interClub\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
-#21 C:\xampp\htdocs\interClub\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
-#22 C:\xampp\htdocs\interClub\framework\web\CController.php(291): CFilterChain->run()
-#23 C:\xampp\htdocs\interClub\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#24 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('index')
-#25 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('Ronda/index')
-#26 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
-#27 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
-#28 {main}
-REQUEST_URI=/interClub/Ronda/index
-HTTP_REFERER=http://localhost/interClub/regular/create
+#0 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(115): CComponent->__call('getUserType', Array)
+#1 C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php(115): CWebUser->getUserType()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): CategoriaController->actionIndex()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('Categoria/index')
+#13 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interClubProyect/Categoria/index
 ---
-2013/06/04 18:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "crear" solicitada.' in C:\xampp\htdocs\interClub\framework\web\CController.php:483
+2013/06/05 04:36:25 [error] [php] Missing argument 1 for CWebUser::getState(), called in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php on line 115 and defined (C:\xampp\htdocs\interClubProyect\framework\web\auth\CWebUser.php:565)
 Stack trace:
-#0 C:\xampp\htdocs\interClub\framework\web\CController.php(270): CController->missingAction('crear')
-#1 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(282): CController->run('crear')
+#0 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CategoriaController->runAction()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CategoriaController->filterAccessControl()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CategoriaController->runActionWithFilters()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CategoriaController->run()
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/Categoria/index
+in C:\xampp\htdocs\interClubProyect\protected\controllers\CategoriaController.php (115)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/05 04:39:18 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent (C:\xampp\htdocs\interClubProyect\framework\web\CHttpSession.php:185)
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\web\auth\CWebUser.php(227): CWebUser->changeIdentity()
+#1 C:\xampp\htdocs\interClubProyect\protected\models\LoginForm.php(71): CWebUser->login()
+#2 C:\xampp\htdocs\interClubProyect\protected\controllers\SiteController.php(94): LoginForm->login()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\interClubProyect\index.php(13): CWebApplication->run()
+REQUEST_URI=/interClubProyect/site/login
+in C:\xampp\htdocs\interClubProyect\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\interClubProyect\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/05 05:06:11 [error] [exception.CException] exception 'CException' with message 'Propiedad "Usuario"."principal" no se encuentra definida.' in C:\xampp\htdocs\interClubProyect\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(143): CComponent->__get('principal')
+#1 C:\xampp\htdocs\interClubProyect\protected\views\usuario\_form.php(48): CActiveRecord->__get('principal')
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\interClubProyect\protected\views\usuario\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\interClubProyect\protected\controllers\UsuarioController.php(80): CController->render('create', Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/create')
+#22 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/interClubProyect/usuario/create
+HTTP_REFERER=http://localhost/interClubProyect/Usuario/index
+---
+2013/06/05 05:21:24 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 947 OCIStmtExecute: ORA-00947: not enough values
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into USUARIO values(15512131).
+in C:\xampp\htdocs\interClubProyect\protected\controllers\UsuarioController.php (77)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/05 05:21:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 947 OCIStmtExecute: ORA-00947: not enough values
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: insert into USUARIO values(15512131)' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php(376): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\interClubProyect\protected\controllers\UsuarioController.php(77): CDbCommand->query()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/create')
+#13 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interClubProyect/usuario/create
+HTTP_REFERER=http://localhost/interClubProyect/usuario/create
+---
+2013/06/05 05:28:11 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.UQ_USUARIO_N_CORREO) violated
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into USUARIO values(2, 'correo', 'nombres', 'apellidos', 'S', 'contrasena').
+in C:\xampp\htdocs\interClubProyect\protected\controllers\UsuarioController.php (75)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/05 05:28:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.UQ_USUARIO_N_CORREO) violated
+ (ext\pdo_oci\oci_statement.c:148). The SQL statement executed was: insert into USUARIO values(2, 'correo', 'nombres', 'apellidos', 'S', 'contrasena')' in C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\CDbCommand.php(376): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\interClubProyect\protected\controllers\UsuarioController.php(75): CDbCommand->query()
+#2 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/create')
+#13 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interClubProyect/usuario/create
+HTTP_REFERER=http://localhost/interClubProyect/usuario/create
+---
+2013/06/05 05:47:22 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.UQ_USUARIO_N_CORREO) violated
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into USUARIO values(111, 'correo', 'nombres', 'apellidos', 'A', 'clave').
+in C:\xampp\htdocs\interClubProyect\protected\controllers\UsuarioController.php (76)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/05 05:48:39 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.UQ_USUARIO_N_CORREO) violated
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into USUARIO values(111, 'correo', 'nombres', 'apellidos', 'A', 'clave').
+in C:\xampp\htdocs\interClubProyect\protected\controllers\UsuarioController.php (76)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/05 05:50:23 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.UQ_USUARIO_N_CORREO) violated
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into USUARIO values(111, 'correo', 'nombres', 'apellidos', 'A', 'clave').
+in C:\xampp\htdocs\interClubProyect\protected\controllers\UsuarioController.php (76)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/05 05:50:34 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 1 OCIStmtExecute: ORA-00001: unique constraint (AJEDREZ.UQ_USUARIO_N_CORREO) violated
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into USUARIO values(111, 'correo', 'nombres', 'apellidos', 'A', 'clave').
+in C:\xampp\htdocs\interClubProyect\protected\controllers\UsuarioController.php (76)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
 #2 C:\xampp\htdocs\interClub\framework\web\CWebApplication.php(141): CWebApplication->runController('ronda/crear')
 #3 C:\xampp\htdocs\interClub\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #4 C:\xampp\htdocs\interClub\index.php(13): CApplication->run()
