@@ -15,21 +15,20 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-          <div class="row">
-		<?php echo $form->labelEx($model,'K_IDRONDA'); ?>
-		<?php echo $form->textField($model,'K_IDRONDA'); ?>
-		<?php echo $form->error($model,'K_IDRONDA'); ?>
-	</div>
-        
+                 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Q_NUMERORONDA'); ?>
 		<?php echo $form->textField($model,'Q_NUMERORONDA',array('size'=>4,'maxlength'=>4)); ?>
 		<?php echo $form->error($model,'Q_NUMERORONDA'); ?>
 	</div>
-
+<?php
+                $list["F"]="Finalizada";
+                $list["A"]="Abierta";
+        ?>
+	
 	<div class="row">
 		<?php echo $form->labelEx($model,'I_ESTADORONDA'); ?>
-		<?php echo $form->textField($model,'I_ESTADORONDA',array('size'=>60,'maxlength'=>3752)); ?>
+		<?php echo CHtml::dropDownList('Ronda[I_ESTADORONDA]',$model->I_ESTADORONDA,$list); ?>
 		<?php echo $form->error($model,'I_ESTADORONDA'); ?>
 	</div>
 

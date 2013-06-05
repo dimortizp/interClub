@@ -41,7 +41,7 @@ class Ronda extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('K_IDRONDA,Q_NUMERORONDA, I_ESTADORONDA, K_IDTORNEO', 'required'),
+			array('Q_NUMERORONDA, I_ESTADORONDA, K_IDTORNEO', 'required'),
 			array('K_IDTORNEO', 'numerical', 'integerOnly'=>true),
 			array('Q_NUMERORONDA', 'length', 'max'=>4),
 			array('I_ESTADORONDA', 'length', 'max'=>1),
