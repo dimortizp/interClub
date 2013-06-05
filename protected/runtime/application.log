@@ -6450,3 +6450,54 @@ Stack trace:
 REQUEST_URI=/interClub/ListaEspera/index
 HTTP_REFERER=http://localhost/interClub/Lugar/index
 ---
+2013/06/05 07:38:02 [error] [exception.CException] exception 'CException' with message 'Propiedad "Socio"."K_IDCATEGORIA" no se encuentra definida.' in C:\xampp\htdocs\interClubProyect\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\db\ar\CActiveRecord.php(143): CComponent->__get('K_IDCATEGORIA')
+#1 C:\xampp\htdocs\interClubProyect\protected\views\socio\_form.php(51): CActiveRecord->__get('K_IDCATEGORIA')
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\interClubProyect\protected\views\socio\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\interClubProyect\protected\controllers\SocioController.php(80): CController->render('create', Array)
+#11 C:\xampp\htdocs\interClubProyect\framework\web\actions\CInlineAction.php(49): SocioController->actionCreate()
+#12 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('Socio/create')
+#22 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/interClubProyect/Socio/create/
+HTTP_REFERER=http://localhost/interClubProyect/usuario/create
+---
+2013/06/05 07:39:52 [error] [system.db.CDbCommand] CDbCommand::() falló: SQLSTATE[HY000]: General error: 947 OCIStmtExecute: ORA-00947: not enough values
+ (ext\pdo_oci\oci_statement.c:148). La sentencia SQL ejecutada fue: insert into USUARIO values(2, '05/06/2013', 'bogotano', 'R', 1).
+in C:\xampp\htdocs\interClubProyect\protected\controllers\SocioController.php (64)
+in C:\xampp\htdocs\interClubProyect\index.php (13)
+2013/06/05 07:53:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\interClubProyect\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\interClubProyect\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\interClubProyect\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\interClubProyect\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\interClubProyect\framework\web\CWebApplication.php(141): CWebApplication->runController('rEGULAR/admin')
+#9 C:\xampp\htdocs\interClubProyect\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\interClubProyect\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interClubProyect/rEGULAR/admin
+HTTP_REFERER=http://localhost/interClubProyect/REGULAR/create/
+---

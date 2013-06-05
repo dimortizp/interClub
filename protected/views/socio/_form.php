@@ -32,16 +32,23 @@
 		<?php echo $form->textField($model,'N_NACIONALIDAD',array('size'=>20,'maxlength'=>20)); ?>
 		<?php echo $form->error($model,'N_NACIONALIDAD'); ?>
 	</div>
-
+        <?php
+                $list["R"]="Regular";
+                $list["C"]="Cortecia";
+        ?>
 	<div class="row">
 		<?php echo $form->labelEx($model,'I_TIPOSOCIO'); ?>
-		<?php echo $form->textField($model,'I_TIPOSOCIO',array('size'=>1,'maxlength'=>1)); ?>
+      		<?php echo CHtml::dropDownList('Socio[I_TIPOSOCIO]',$model->I_TIPOSOCIO,$list); ?>
 		<?php echo $form->error($model,'I_TIPOSOCIO'); ?>
 	</div>
-
+        <?php
+        $models = Categoria::model()->findAll(array('order' => 'K_IDCATEGORIA'));
+        // format models as $key=>$value with listData
+        $list = CHtml::listData($models, 'K_IDCATEGORIA', 'N_CATEGORIA');
+        ?>
 	<div class="row">
 		<?php echo $form->labelEx($model,'K_CATEGORIA'); ?>
-		<?php echo $form->textField($model,'K_CATEGORIA'); ?>
+		<?php echo CHtml::dropDownList('Socio[K_CATEGORIA]', $model->K_CATEGORIA, $list); ?>
 		<?php echo $form->error($model,'K_CATEGORIA'); ?>
 	</div>
 
